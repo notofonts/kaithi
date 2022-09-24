@@ -1,5 +1,8 @@
 {
 .appVersion = "3109";
+DisplayStrings = (
+"/ktKII/space/space/ktVSCBindu/space"
+);
 classes = (
 {
 code = ktVirama;
@@ -447,6 +450,10 @@ name = "Don't use Production Names";
 value = 1;
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -469,10 +476,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = versionString;
 value = "Version 2.003";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2019-08-17 12:27:07 +0000";
@@ -482,6 +485,10 @@ disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 familyName = "Noto Sans Kaithi";
 featurePrefixes = (
+{
+code = "languagesystem DFLT dflt;\012languagesystem kthi dflt;\012";
+name = Languagesystems;
+},
 {
 code = "lookup LigatureSubstitution2 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    ;\012    # Original source: 1 \012    sub ktKa ktVirama by ktKa.half;\012    sub ktKHa ktVirama by ktKHa.half;\012    sub ktGa ktVirama by ktGa.half;\012    sub ktGHa ktVirama by ktGHa.half;\012    sub ktNGa ktVirama by ktNGa.half;\012    sub ktCa ktVirama by ktCa.half;\012    sub ktCHa ktVirama by ktCHa.half;\012    sub ktJa ktVirama by ktJa.half;\012    sub ktJHa ktVirama by ktJHa.half;\012    sub ktNYa ktVirama by ktNYa.half;\012    sub ktTTa ktVirama by ktTTa.half;\012    sub ktTTHa ktVirama by ktTTHa.half;\012    sub ktDDa ktVirama by ktDDa.half;\012    sub ktDDDHa ktVirama by ktDDDHa.half;\012    sub ktDDHa ktVirama by ktDDHa.half;\012    sub ktRHa ktVirama by ktRHa.half;\012    sub ktNNa ktVirama by ktNNa.half;\012    sub ktTa ktVirama by ktTa.half;\012    sub ktTHa ktVirama by ktTHa.half;\012    sub ktDa ktVirama by ktDa.half;\012    sub ktDHa ktVirama by ktDHa.half;\012    sub ktNa ktVirama by ktNa.half;\012    sub ktPa ktVirama by ktPa.half;\012    sub ktPHa ktVirama by ktPHa.half;\012    sub ktBa ktVirama by ktBa.half;\012    sub ktBHa ktVirama by ktBHa.half;\012    sub ktMa ktVirama by ktMa.half;\012    sub ktYa ktVirama by ktYa.half;\012    sub ktRa ktVirama ZWJ by ktRa.half;\012    sub ktLa ktVirama by ktLa.half;\012    sub ktVa ktVirama by ktVa.half;\012    sub ktSHa ktVirama by ktSHa.half;\012    sub ktSSa ktVirama by ktSSa.half;\012    sub ktSa ktVirama by ktSa.half;\012    sub ktHa ktVirama by ktHa.half;\012} LigatureSubstitution2;\012";
 name = LigatureSubstitution2;
@@ -673,10 +680,6 @@ name = ContextualGSUB32;
 {
 code = "";
 name = PairPositioning19;
-},
-{
-code = "languagesystem kthi dflt;\012";
-name = Languagesystems;
 }
 );
 features = (
@@ -724,20 +727,8 @@ name = ss03;
 notes = "Name: ";
 },
 {
-code = "# Automatic Code Start\012";
-name = abvm;
-},
-{
-code = "# Automatic Code Start\012";
-name = blwm;
-},
-{
 code = "# Automatic Code Start\012\012lookup PairPositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos ktII <NULL> ktVSCBindu <0 300 0 0>;\012    pos ktAU <NULL> ktVSCBindu <0 100 0 0>;\012    pos ktDDHa <NULL> ktVirama <0 70 0 0>;\012    pos ktRHa <NULL> ktVirama <0 70 0 0>;\012    pos ktHa <NULL> ktVSUU <0 53 0 0>;\012    pos ktVSII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktVSAI <NULL> ktVSCBindu <100 0 0 0>;\012    pos ktVSAU <NULL> ktVSCBindu <100 0 0 0>;\012    pos ktNukta <NULL> ktVSU <0 -50 0 0>;\012    pos ktKII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktJII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktCHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktJHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDDII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDDHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktLII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDDDHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktRHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktPHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTRa <NULL> ktVSUU <0 60 0 0>;\012    pos ktKKII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktKRII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTRII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktJRII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktVRa <NULL> ktVSUU <0 -100 0 0>;\012    pos ktKII.var <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktVSII.alt <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktKKII.var <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktNYa.var <NULL> ktVSUU <0 40 0 0>;\012    pos ktNYII.var <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktPHII.var <NULL> ktVSCBindu <0 102 0 0>;\012} PairPositioning19;\012";
 name = kern;
-},
-{
-code = "# Automatic Code Start\012";
-name = mkmk;
 }
 );
 fontMaster = (
@@ -1269,7 +1260,7 @@ category = Letter;
 },
 {
 glyphname = ktVSCBindu;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:59:02 +0000";
 layers = (
 {
 anchors = (
@@ -1331,7 +1322,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSAnusvara;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:57:30 +0000";
 layers = (
 {
 anchors = (
@@ -1705,7 +1696,7 @@ category = Letter;
 },
 {
 glyphname = ktII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:50:31 +0000";
 layers = (
 {
 anchors = (
@@ -1719,7 +1710,7 @@ position = "{415, 906}";
 },
 {
 name = Anchor6;
-position = "{439, 516}";
+position = "{439, 816}";
 }
 );
 layerId = UUID0;
@@ -2230,7 +2221,7 @@ category = Letter;
 },
 {
 glyphname = ktAU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:56:11 +0000";
 layers = (
 {
 anchors = (
@@ -2244,7 +2235,7 @@ position = "{751, 849}";
 },
 {
 name = Anchor6;
-position = "{800, 734}";
+position = "{800, 834}";
 }
 );
 layerId = UUID0;
@@ -3423,7 +3414,7 @@ category = Letter;
 },
 {
 glyphname = ktDDHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:52:35 +0000";
 layers = (
 {
 anchors = (
@@ -5355,13 +5346,17 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSAI;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:59:17 +0000";
 layers = (
 {
 anchors = (
 {
 name = Anchor12;
 position = "{-89, 848}";
+},
+{
+name = Anchor6;
+position = "{-24, 850}";
 },
 {
 name = _Anchor2;
@@ -5815,7 +5810,7 @@ category = Letter;
 },
 {
 glyphname = ktKII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:59:51 +0000";
 layers = (
 {
 anchors = (
@@ -5829,7 +5824,7 @@ position = "{726, 917}";
 },
 {
 name = Anchor6;
-position = "{997, 627}";
+position = "{997, 729}";
 }
 );
 layerId = UUID0;
@@ -6664,7 +6659,7 @@ category = Letter;
 },
 {
 glyphname = ktCHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:55:04 +0000";
 layers = (
 {
 anchors = (
@@ -6678,7 +6673,7 @@ position = "{799, 906}";
 },
 {
 name = Anchor6;
-position = "{1000, 627}";
+position = "{1000, 729}";
 }
 );
 layerId = UUID0;
@@ -8877,7 +8872,7 @@ category = Letter;
 },
 {
 glyphname = ktDII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:55:27 +0000";
 layers = (
 {
 anchors = (
@@ -8891,7 +8886,7 @@ position = "{522, 906}";
 },
 {
 name = Anchor6;
-position = "{733, 627}";
+position = "{733, 729}";
 }
 );
 layerId = UUID0;
@@ -22172,7 +22167,7 @@ category = Letter;
 },
 {
 glyphname = ktVSII.alt;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2022-09-24 10:58:05 +0000";
 layers = (
 {
 anchors = (
@@ -22186,7 +22181,7 @@ position = "{81, 906}";
 },
 {
 name = Anchor6;
-position = "{278, 627}";
+position = "{278, 729}";
 }
 );
 layerId = UUID0;

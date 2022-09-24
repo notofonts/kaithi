@@ -115,7 +115,7 @@
             "only": "NotoSansKaithi-Regular.ttf"
         },
         {
-            "expectation": "ktJa=0+697|ktVSE=0@-101,14+0|ktBHa.half=2+415|ktDDa=4+594|ktVSAI=4@-100,18+0|ktVSCBindu=4@0,24+0|ktCHa.half=7+753|ktGa=9+608|ktCa=10+561|ktVSAnusvara=10@-141,5+0",
+            "expectation": "ktJa=0+697|ktVSE=0@-101,14+0|ktBHa.half=2+415|ktDDa=4+594|ktVSAI=4@-100,18+0|ktVSCBindu=4@33,265+0|ktCHa.half=7+753|ktGa=9+608|ktCa=10+561|ktVSAnusvara=10@-141,5+0",
             "input": "𑂔𑂵𑂦𑂹𑂙𑂶𑂀𑂓𑂹𑂏𑂒𑂁",
             "note": "Added by SIESTA",
             "only": "NotoSansKaithi-Regular.ttf"
@@ -373,12 +373,6 @@
             "only": "NotoSansKaithi-Regular.ttf"
         },
         {
-            "expectation": "ktDDHa=0+582|ktRaHook=0@-383,-103+0|ktNYa=3+644|ktVSCBindu=3@-180,24+0|ktPa.half=5+376|ktDa=7+444|ktAU=8+865|ktVSAnusvara=8@42,112+0|ktNYa=10+644",
-            "input": "𑂩𑂹𑂛𑂖𑂀𑂣𑂹𑂠𑂌𑂁𑂖",
-            "note": "Added by SIESTA",
-            "only": "NotoSansKaithi-Regular.ttf"
-        },
-        {
             "expectation": "ktDDa.half=0+594|ktRa=2+453|ktPTa=3+543",
             "input": "𑂙𑂹𑂩𑂣𑂹𑂞",
             "note": "Added by SIESTA",
@@ -403,7 +397,7 @@
             "only": "NotoSansKaithi-Regular.ttf"
         },
         {
-            "expectation": "ktThree=0+521|ktVa=1+573|ktNukta=1+0|ktVSU=1+0|ktMa=4+599|ktVirama=4+0|ktDa=6+444|ktDDDHa=7+594|ktVirama=7+0|ktSSa=9+521|ktRHa=10+582|ktVSU=10+0",
+            "expectation": "ktThree=0+521|ktVa=1+573|ktNukta=1+0|ktVSU=1@257,-240+0|ktMa=4+599|ktVirama=4@-287,0+0|ktDa=6+444|ktDDDHa=7+594|ktVirama=7@-449,-250+0|ktSSa=9+521|ktRHa=10+582|ktVSU=10@62,-238+0",
             "input": "३𑂫𑂺𑂳𑂧𑂹𑂠𑂚𑂹𑂭𑂜𑂳",
             "note": "Added by SIESTA",
             "only": "NotoSansKaithi-Regular.ttf"
@@ -439,7 +433,7 @@
             "only": "NotoSansKaithi-Regular.ttf"
         },
         {
-            "expectation": "ktSSa.half=0+294|ktNGa=2+613|ktCHa.half=3+753|ktYa=5+554|ktDDHa=6+582|ktVirama=6@-470,70+0",
+            "expectation": "ktSSa.half=0+294|ktNGa=2+613|ktCHa.half=3+753|ktYa=5+554|ktDDHa=6+582|ktVirama=6@-470,0+0",
             "input": "𑂭𑂹𑂑𑂓𑂹𑂨𑂛𑂹",
             "note": "Added by SIESTA",
             "only": "NotoSansKaithi-Regular.ttf"
@@ -529,7 +523,7 @@
             "only": "NotoSansKaithi-Regular.ttf"
         },
         {
-            "expectation": "ktFive=0+557|ktCHa=1+753|ktVirama=1+0|ktNGa=3+613|ktBHa=4+640|ktVirama=4+0|ktSa=6+704|ktVSI=6+245|ktDa=8+444|ktVSAnusvara=8+0|ktKHa=10+731|ktVSII=10+252",
+            "expectation": "ktFive=0+557|ktCHa=1+753|ktVirama=1@-619,0+0|ktNGa=3+613|ktBHa=4+640|ktVirama=4@-299,0+0|ktSa=6+704|ktVSI=6+245|ktDa=8+444|ktVSAnusvara=8@-50,5+0|ktKHa=10+731|ktVSII=10+252",
             "input": "५𑂓𑂹𑂑𑂦𑂹𑂮𑂱𑂠𑂁𑂎𑂲",
             "note": "Added by SIESTA",
             "only": "NotoSansKaithi-Regular.ttf"
@@ -547,19 +541,13 @@
             "only": "NotoSansKaithi-Regular.ttf"
         },
         {
-            "expectation": "ktZero=0+511|ktSHa=1+660|ktVirama=1+0|ktDDDHa=3+594|ktDa=4+444|ktVSAI=4+0|ktVSAU=4+242|ktNukta=4+0|ktVSI=4+245|ktNa=9+602|ktVSAnusvara=9+0",
-            "input": "०𑂬𑂹𑂚𑂠𑂶𑂸𑂺𑂱𑂢𑂁",
-            "note": "Added by SIESTA",
-            "only": "NotoSansKaithi-Regular.ttf"
-        },
-        {
             "expectation": "ktTTHa.half=0+534|ktYa=2+554|ktSa.half=3+471|ktGHa=5+604|ktLa=6+596|ktNukta=6@-196,0+0|ktVSU.alt=6@4,-285+0|ktBa.half=9+405|ktCa=11+561|ktJa=12+697|ktVSU=12@245,10+0",
             "input": "𑂘𑂹𑂨𑂮𑂹𑂐𑂪𑂺𑂳𑂥𑂹𑂒𑂔𑂳",
             "note": "Added by SIESTA",
             "only": "NotoSansKaithi-Regular.ttf"
         },
         {
-            "expectation": "ktThree=0+521|ktLa=1+596|ktVirama=1+0|ktYa=3+554|ktTTa=4+557|ktVirama=4+0|ktNa=6+602|ktPa=7+541|ktVirama=7+0|ktDa=9+444|ktVSI=9+245|ktKHa=11+731|ktVSCBindu=11+0",
+            "expectation": "ktThree=0+521|ktLa=1+596|ktVirama=1@-465,0+0|ktYa=3+554|ktTTa=4+557|ktVirama=4@-445,0+0|ktNa=6+602|ktPa=7+541|ktVirama=7@-288,0+0|ktDa=9+444|ktVSI=9+245|ktKHa=11+731|ktVSCBindu=11@-220,24+0",
             "input": "३𑂪𑂹𑂨𑂗𑂹𑂢𑂣𑂹𑂠𑂱𑂎𑂀",
             "note": "Added by SIESTA",
             "only": "NotoSansKaithi-Regular.ttf"
