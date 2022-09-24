@@ -1,7 +1,7 @@
 {
 .appVersion = "3109";
 DisplayStrings = (
-"/ktKII/space/space/ktVSCBindu/space"
+"/ktA/ktA.var/ktKa/ktKa.var"
 );
 classes = (
 {
@@ -518,14 +518,6 @@ code = "lookup LigatureSubstitution7 {\012    lookupflag UseMarkFilteringSet @ma
 name = LigatureSubstitution7;
 },
 {
-code = "lookup SingleSubstitution8 {\012    lookupflag 0;\012    ;\012    # Original source: 7 \012    sub ktA by ktA.var;\012    sub ktAA by ktAA.var;\012    sub ktI by ktI.var;\012    sub ktII by ktII.var;\012    sub ktKa by ktKa.var;\012    sub ktNYa by ktNYa.var;\012    sub ktNNa by ktNNa.var;\012    sub ktPHa by ktPHa.var;\012    sub ktLa by ktLa.var;\012    sub ktKII by ktKII.var;\012    sub ktKKa by ktKKa.var;\012    sub ktLII by ktLII.var;\012    sub ktPHII by ktPHII.var;\012    sub ktKa.half by ktKa.half.var;\012    sub ktKMa by ktKMa.var;\012    sub ktKYa by ktKYa.varKa;\012    sub ktKRa by ktKRa.var;\012    sub ktNNa.half by ktNNa.half.var;\012    sub ktPHa.half by ktPHa.half.var;\012    sub ktKTHa by ktKTHa.var;\012    sub ktKKII by ktKKII.var;\012    sub ktKRII by ktKRII.var;\012    sub ktNYa.half by ktNYa.half.var;\012    sub ktKSa by ktKSa.var;\012    sub ktLa.half by ktLa.half.var;\012    sub ktKMRa by ktKMRa.var;\012    sub ktKTHRa by ktKTHRa.var;\012} SingleSubstitution8;\012";
-name = SingleSubstitution8;
-},
-{
-code = "lookup SingleSubstitution9 {\012    lookupflag IgnoreMarks;\012    ;\012    # Original source: 8 \012    sub ktYa by ktYa.var;\012    sub ktYU.alt1 by ktYU.var.alt1;\012    sub ktYUU by ktYUU.var;\012    sub ktKYa by ktKYa.var;\012    sub ktYa.half by ktYa.half.var;\012    sub ktBHYa by ktBHYa.var;\012    sub ktKYa.varKa by ktKYa.varKYa;\012    sub ktKYU.alt1 by ktKYU.var.alt1;\012} SingleSubstitution9;\012";
-name = SingleSubstitution9;
-},
-{
 code = "lookup SingleSubstitution47 {\012    lookupflag 0;\012    ;\012    # Original source: 46 \012    sub ktZero by ktZero.smallblw;\012    sub ktOne by ktOne.smallblw;\012    sub ktTwo by ktTwo.smallblw;\012    sub ktThree by ktThree.smallblw;\012    sub ktFour by ktFour.smallblw;\012    sub ktFive by ktFive.smallblw;\012    sub ktSix by ktSix.smallblw;\012    sub ktSeven by ktSeven.smallblw;\012    sub ktEight by ktEight.smallblw;\012    sub ktNine by ktNine.smallblw;\012} SingleSubstitution47;\012";
 name = SingleSubstitution47;
 },
@@ -544,10 +536,6 @@ name = LigatureSubstitution11;
 {
 code = "lookup LigatureSubstitution12 {\012    lookupflag UseMarkFilteringSet @markFilteringSet6;\012    ;\012    # Original source: 11 \012    sub ktKa ktVSII by ktKII;\012    sub ktCHa ktVSII by ktCHII;\012    sub ktJa ktVSII by ktJII;\012    sub ktJHa ktVSII by ktJHII;\012    sub ktTTa ktVSII by ktTTII;\012    sub ktTTHa ktVSII by ktTTHII;\012    sub ktDDa ktVSII by ktDDII;\012    sub ktDDDHa ktVSII by ktDDDHII;\012    sub ktDDHa ktVSII by ktDDHII;\012    sub ktRHa ktVSII by ktRHII;\012    sub ktDa ktVSII by ktDII;\012    sub ktPHa ktVSII by ktPHII;\012    sub ktLa ktVSII by ktLII;\012    sub ktHa ktVSII by ktHII;\012    sub ktKKa ktVSII by ktKKII;\012    sub ktKRa ktVSII by ktKRII;\012    sub ktTTRa ktVSII by ktTTRII;\012    sub ktJRa ktVSII by ktJRII;\012} LigatureSubstitution12;\012";
 name = LigatureSubstitution12;
-},
-{
-code = "lookup LigatureSubstitution13 {\012    lookupflag MarkAttachmentType @markFilteringSet1;\012    ;\012    # Original source: 12 \012    sub ktNYa.var ktVSII.alt by ktNYII.var;\012    sub ktPHa.half.var ktRa by ktPHRa.var;\012    sub ktPHa.var ktVirama ktRa by ktPHRa.var;\012} LigatureSubstitution13;\012";
-name = LigatureSubstitution13;
 },
 {
 code = "lookup SingleSubstitution19 {\012    lookupflag 0;\012    ;\012    # Original source: 18 \012    sub ktVSII by ktVSII.alt;\012    sub ktVSU by ktVSU.alt;\012    sub ktVSI.alt2 by ktVSI.alt4;\012    sub ktVSU.alt by ktVSU;\012} SingleSubstitution19;\012";
@@ -572,18 +560,6 @@ name = MultipleSubstitution17;
 {
 code = "lookup ContextualGSUB16 {\012    lookupflag 0;\012    ;\012    # Original source: 15 \012    sub @class16' lookup MultipleSubstitution17 ZWNJ';\012} ContextualGSUB16;\012";
 name = ContextualGSUB16;
-},
-{
-code = "lookup ContextualGSUB18 {\012    lookupflag IgnoreMarks;\012    ;\012    # Original source: 17 \012    sub ktVSI.alt2' lookup SingleSubstitution19 ktKKa.var';\012    sub [ktMRa ktKMRa.var]' ktVSU' lookup SingleSubstitution19;\012} ContextualGSUB18;\012";
-name = ContextualGSUB18;
-},
-{
-code = "lookup SingleSubstitution21 {\012    lookupflag 0;\012    ;\012    # Original source: 20 \012    sub ktSU by ktSU.alt1;\012} SingleSubstitution21;\012";
-name = SingleSubstitution21;
-},
-{
-code = "lookup LigatureSubstitution22 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    sub ktKa ktVSU by ktKU.alt1;\012    sub ktKHa ktVSU by ktKHU.alt1;\012    sub ktGa ktVSU by ktGU.alt1;\012    sub ktGHa ktVSU by ktGHU.alt1;\012    sub ktCa ktVSU by ktCU.alt1;\012    sub ktJa ktVSU by ktJU.alt1;\012    sub ktNNa ktVSU by ktNNU.alt1;\012    sub ktNNa ktVSU.alt by ktNNU.alt1;\012    sub ktTa ktVSU by ktTU.alt1;\012    sub ktTHa ktVSU by ktTHU.alt1;\012    sub ktDHa ktVSU by ktDHU.alt1;\012    sub ktNa ktVSU by ktNU.alt1;\012    sub ktPa ktVSU by ktPU.alt1;\012    sub ktBa ktVSU by ktBU.alt1;\012    sub ktBHa ktVSU by ktBHU.alt1;\012    sub ktMa ktVSU by ktMU.alt1;\012    sub ktYa ktVSU.alt by ktYU.alt1;\012    sub ktRa ktVSU by ktRU.alt1;\012    sub ktVa ktVSU.alt by ktVU.alt1;\012    sub ktSHa ktVSU by ktSHU.alt1;\012    sub ktSSa ktVSU by ktSSU.alt1;\012    sub ktSa ktVSU by ktSU.alt1;\012    sub ktPTa ktVSU.alt by ktPTU.alt1;\012    sub ktKKa ktVSU by ktKKU.alt1;\012    sub ktPRa ktVSU by ktPRU.alt1;\012    sub ktKMa ktVSU by ktKMU.alt1;\012    sub ktKYa ktVSU.alt by ktKYU.alt1;\012    sub ktKRa ktVSU by ktKRU.alt1;\012    sub ktGRa ktVSU by ktGRU.alt1;\012    sub ktKTHa ktVSU by ktKTHU.alt1;\012    sub ktKHRa ktVSU by ktKHRU.alt1;\012    sub ktGHRa ktVSU by ktGHRU.alt1;\012    sub ktCRa ktVSU by ktCRU.alt1;\012    sub ktTHRa ktVSU by ktTHRU.alt1;\012    sub ktDHRa ktVSU by ktDHRU.alt1;\012    sub ktBRa ktVSU by ktBRU.alt1;\012    sub ktMRa ktVSU by ktMRU.alt1;\012    sub ktSSRa ktVSU.alt by ktSSRU.alt1;\012    sub ktSRa ktVSU.alt by ktSRU.alt1;\012    sub ktBHRa ktVSU by ktBHRU.alt1;\012    sub ktJRa ktVSU by ktJRU.alt1;\012    sub ktBHYa ktVSU.alt by ktBHYU.alt1;\012    sub ktKSa ktVSU.alt by ktKSU.alt1;\012    sub ktTRa ktVSU by ktTRU.alt1;\012    sub ktVRa ktVSU.alt by ktVRU.alt1;\012    sub ktKMa.var ktVSU by ktKMU.var.alt1;\012    sub ktKMRa ktVSU.alt by ktKMRU.alt1;\012    sub ktKMRa.var ktVSU.alt by ktKMRU.var.alt1;\012    sub ktKSa.var ktVSU.alt by ktKSU.var.alt1;\012    sub ktKTHa.var ktVSU by ktKTHU.var.alt1;\012    sub ktKTHRa ktVSU by ktKTHRU.alt1;\012    sub ktKYa.varKa ktVSU by ktKYU.varKa.alt1;\012    sub ktNNa.var ktVSU.alt by ktNNU.var.alt1;\012    sub ktBHYa.var ktVSU.alt by ktBHYU.var.alt1;\012    sub ktKTHRa.var ktVSU by ktKTHRU.var.alt1;\012    sub ktKYa.var ktVSU by ktKYU.var.alt1;\012    sub ktKYa.var ktVSU.alt by ktKYU.var.alt1;\012    sub ktKYa.varKYa ktVSU by ktKYU.varKYa.alt1;\012    sub ktYa.var ktVSU by ktYU.var.alt1;\012    sub ktYa.var ktVSU.alt by ktYU.var.alt1;\012} LigatureSubstitution22;\012";
-name = LigatureSubstitution22;
 },
 {
 code = "lookup MultipleSubstitution27 {\012    lookupflag 0;\012    ;\012    # Original source: 26 \012    sub ktVSI by ktVSI ktRaHook;\012    sub ktVSII.alt by ktVSII.alt ktRaHook;\012} MultipleSubstitution27;\012";
@@ -712,19 +688,19 @@ code = "    lookup LigatureSubstitution4;\012";
 name = rphf;
 },
 {
-code = "    lookup SingleSubstitution8;\012\012    lookup LigatureSubstitution13;\012\012    lookup ContextualGSUB18;\012";
+code = "lookup SingleSubstitution8 {\012    lookupflag 0;\012    ;\012    # Original source: 7 \012    sub ktA by ktA.var;\012    sub ktAA by ktAA.var;\012    sub ktI by ktI.var;\012    sub ktII by ktII.var;\012    sub ktKa by ktKa.var;\012    sub ktNYa by ktNYa.var;\012    sub ktNNa by ktNNa.var;\012    sub ktPHa by ktPHa.var;\012    sub ktLa by ktLa.var;\012    sub ktKII by ktKII.var;\012    sub ktKKa by ktKKa.var;\012    sub ktLII by ktLII.var;\012    sub ktPHII by ktPHII.var;\012    sub ktKa.half by ktKa.half.var;\012    sub ktKMa by ktKMa.var;\012    sub ktKYa by ktKYa.varKa;\012    sub ktKRa by ktKRa.var;\012    sub ktNNa.half by ktNNa.half.var;\012    sub ktPHa.half by ktPHa.half.var;\012    sub ktKTHa by ktKTHa.var;\012    sub ktKKII by ktKKII.var;\012    sub ktKRII by ktKRII.var;\012    sub ktNYa.half by ktNYa.half.var;\012    sub ktKSa by ktKSa.var;\012    sub ktLa.half by ktLa.half.var;\012    sub ktKMRa by ktKMRa.var;\012    sub ktKTHRa by ktKTHRa.var;\012} SingleSubstitution8;\012\012lookup LigatureSubstitution13 {\012    lookupflag MarkAttachmentType @markFilteringSet1;\012    ;\012    # Original source: 12 \012    sub ktNYa.var ktVSII.alt by ktNYII.var;\012    sub ktPHa.half.var ktRa by ktPHRa.var;\012    sub ktPHa.var ktVirama ktRa by ktPHRa.var;\012} LigatureSubstitution13;\012\012lookup ContextualGSUB18 {\012    lookupflag IgnoreMarks;\012    ;\012    # Original source: 17 \012    sub ktVSI.alt2' lookup SingleSubstitution19 ktKKa.var';\012    sub [ktMRa ktKMRa.var]' ktVSU' lookup SingleSubstitution19;\012} ContextualGSUB18;\012";
 name = ss01;
-notes = "Name: ";
+notes = "Name: Alternate forms";
 },
 {
-code = "    lookup SingleSubstitution21;\012\012    lookup LigatureSubstitution22;\012";
+code = "lookup SingleSubstitution21 {\012    sub ktSU by ktSU.alt1;\012} SingleSubstitution21;\012\012lookup LigatureSubstitution22 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    sub ktKa ktVSU by ktKU.alt1;\012    sub ktKHa ktVSU by ktKHU.alt1;\012    sub ktGa ktVSU by ktGU.alt1;\012    sub ktGHa ktVSU by ktGHU.alt1;\012    sub ktCa ktVSU by ktCU.alt1;\012    sub ktJa ktVSU by ktJU.alt1;\012    sub ktNNa ktVSU by ktNNU.alt1;\012    sub ktNNa ktVSU.alt by ktNNU.alt1;\012    sub ktTa ktVSU by ktTU.alt1;\012    sub ktTHa ktVSU by ktTHU.alt1;\012    sub ktDHa ktVSU by ktDHU.alt1;\012    sub ktNa ktVSU by ktNU.alt1;\012    sub ktPa ktVSU by ktPU.alt1;\012    sub ktBa ktVSU by ktBU.alt1;\012    sub ktBHa ktVSU by ktBHU.alt1;\012    sub ktMa ktVSU by ktMU.alt1;\012    sub ktYa ktVSU.alt by ktYU.alt1;\012    sub ktRa ktVSU by ktRU.alt1;\012    sub ktVa ktVSU.alt by ktVU.alt1;\012    sub ktSHa ktVSU by ktSHU.alt1;\012    sub ktSSa ktVSU by ktSSU.alt1;\012    sub ktSa ktVSU by ktSU.alt1;\012    sub ktPTa ktVSU.alt by ktPTU.alt1;\012    sub ktKKa ktVSU by ktKKU.alt1;\012    sub ktPRa ktVSU by ktPRU.alt1;\012    sub ktKMa ktVSU by ktKMU.alt1;\012    sub ktKYa ktVSU.alt by ktKYU.alt1;\012    sub ktKRa ktVSU by ktKRU.alt1;\012    sub ktGRa ktVSU by ktGRU.alt1;\012    sub ktKTHa ktVSU by ktKTHU.alt1;\012    sub ktKHRa ktVSU by ktKHRU.alt1;\012    sub ktGHRa ktVSU by ktGHRU.alt1;\012    sub ktCRa ktVSU by ktCRU.alt1;\012    sub ktTHRa ktVSU by ktTHRU.alt1;\012    sub ktDHRa ktVSU by ktDHRU.alt1;\012    sub ktBRa ktVSU by ktBRU.alt1;\012    sub ktMRa ktVSU by ktMRU.alt1;\012    sub ktSSRa ktVSU.alt by ktSSRU.alt1;\012    sub ktSRa ktVSU.alt by ktSRU.alt1;\012    sub ktBHRa ktVSU by ktBHRU.alt1;\012    sub ktJRa ktVSU by ktJRU.alt1;\012    sub ktBHYa ktVSU.alt by ktBHYU.alt1;\012    sub ktKSa ktVSU.alt by ktKSU.alt1;\012    sub ktTRa ktVSU by ktTRU.alt1;\012    sub ktVRa ktVSU.alt by ktVRU.alt1;\012    sub ktKMa.var ktVSU by ktKMU.var.alt1;\012    sub ktKMRa ktVSU.alt by ktKMRU.alt1;\012    sub ktKMRa.var ktVSU.alt by ktKMRU.var.alt1;\012    sub ktKSa.var ktVSU.alt by ktKSU.var.alt1;\012    sub ktKTHa.var ktVSU by ktKTHU.var.alt1;\012    sub ktKTHRa ktVSU by ktKTHRU.alt1;\012    sub ktKYa.varKa ktVSU by ktKYU.varKa.alt1;\012    sub ktNNa.var ktVSU.alt by ktNNU.var.alt1;\012    sub ktBHYa.var ktVSU.alt by ktBHYU.var.alt1;\012    sub ktKTHRa.var ktVSU by ktKTHRU.var.alt1;\012    sub ktKYa.var ktVSU by ktKYU.var.alt1;\012    sub ktKYa.var ktVSU.alt by ktKYU.var.alt1;\012    sub ktKYa.varKYa ktVSU by ktKYU.varKYa.alt1;\012    sub ktYa.var ktVSU by ktYU.var.alt1;\012    sub ktYa.var ktVSU.alt by ktYU.var.alt1;\012} LigatureSubstitution22;\012";
 name = ss02;
-notes = "Name: ";
+notes = "Name: Alternate U-vowel conjuncts";
 },
 {
-code = "    lookup SingleSubstitution9;\012";
+code = "lookupflag IgnoreMarks;\012sub ktYa by ktYa.var;\012sub ktYU.alt1 by ktYU.var.alt1;\012sub ktYUU by ktYUU.var;\012sub ktKYa by ktKYa.var;\012sub ktYa.half by ktYa.half.var;\012sub ktBHYa by ktBHYa.var;\012sub ktKYa.varKa by ktKYa.varKYa;\012sub ktKYU.alt1 by ktKYU.var.alt1;\012";
 name = ss03;
-notes = "Name: ";
+notes = "Name: Dotless ya forms";
 },
 {
 code = "# Automatic Code Start\012\012lookup PairPositioning19 {\012    lookupflag 0;\012    ;\012    # Original source: 9 \012    pos ktII <NULL> ktVSCBindu <0 300 0 0>;\012    pos ktAU <NULL> ktVSCBindu <0 100 0 0>;\012    pos ktDDHa <NULL> ktVirama <0 70 0 0>;\012    pos ktRHa <NULL> ktVirama <0 70 0 0>;\012    pos ktHa <NULL> ktVSUU <0 53 0 0>;\012    pos ktVSII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktVSAI <NULL> ktVSCBindu <100 0 0 0>;\012    pos ktVSAU <NULL> ktVSCBindu <100 0 0 0>;\012    pos ktNukta <NULL> ktVSU <0 -50 0 0>;\012    pos ktKII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktJII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktCHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktJHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDDII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDDHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktLII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktDDDHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktRHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktPHII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTRa <NULL> ktVSUU <0 60 0 0>;\012    pos ktKKII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktKRII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktTTRII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktJRII <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktVRa <NULL> ktVSUU <0 -100 0 0>;\012    pos ktKII.var <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktVSII.alt <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktKKII.var <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktNYa.var <NULL> ktVSUU <0 40 0 0>;\012    pos ktNYII.var <NULL> ktVSCBindu <0 102 0 0>;\012    pos ktPHII.var <NULL> ktVSCBindu <0 102 0 0>;\012} PairPositioning19;\012";
