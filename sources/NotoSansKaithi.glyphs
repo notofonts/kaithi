@@ -1,7 +1,10 @@
 {
-.appVersion = "3109";
+.appVersion = "3151";
 DisplayStrings = (
-"/ktA/ktA.var/ktKa/ktKa.var"
+"/ktPa/ktVSU/ktPa/ktPa",
+"/ktVSR/space/space/ktVSU/space/space/ktVSUU/space/space/space",
+"/ktYa/ktVa",
+"/ktVSR"
 );
 classes = (
 {
@@ -41,7 +44,7 @@ code = "ktBHYa ktKMRa ktKSa ktKYa ktKYa.varKa ktLa.var ktNNa ktNNa.var ktPHa ktP
 name = class12;
 },
 {
-code = "ktVSU ktVSUU ktNukta ktVSU.alt";
+code = "ktVSU ktVSUU ktNukta ktVSU.alt\012";
 name = markAttachmentSet10;
 },
 {
@@ -49,7 +52,7 @@ code = "ktBHa.half ktBa.half ktCHa.half ktCa.half ktDDDHa.half ktDDHa.half ktDDa
 name = class16;
 },
 {
-code = "ktVSCBindu ktVSAnusvara ktVSE ktVSAI ktVSAIm ktVSEm ktRaHook ktRaAnusvara ktRaCandrabindu";
+code = "ktVSCBindu ktVSAnusvara ktVSE  ktVSRktVSAI ktVSAIm ktVSEm ktRaHook ktRaAnusvara ktRaCandrabindu\012";
 name = markAttachmentSet11;
 },
 {
@@ -158,6 +161,7 @@ ktVSI,
 ktVSII,
 ktVSU,
 ktVSUU,
+ktVSR,
 ktVSE,
 ktVSAI,
 ktVSO,
@@ -775,7 +779,7 @@ xHeight = 536;
 glyphs = (
 {
 glyphname = .notdef;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -805,7 +809,7 @@ width = 600;
 },
 {
 glyphname = NULL;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -816,7 +820,7 @@ unicode = 0000;
 },
 {
 glyphname = CR;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -827,7 +831,7 @@ unicode = 000D;
 },
 {
 glyphname = space;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -838,7 +842,7 @@ unicode = 0020;
 },
 {
 glyphname = uni00A0;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -849,7 +853,7 @@ unicode = 00A0;
 },
 {
 glyphname = hyphen;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -873,7 +877,7 @@ unicode = 002D;
 },
 {
 glyphname = hyphentwo;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -896,7 +900,7 @@ unicode = 2010;
 },
 {
 glyphname = uni200B;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -907,7 +911,7 @@ unicode = 200B;
 },
 {
 glyphname = ZWJ;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -919,7 +923,7 @@ category = Mark;
 },
 {
 glyphname = ZWNJ;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -932,7 +936,7 @@ category = Mark;
 },
 {
 glyphname = uni25CC;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1236,7 +1240,7 @@ category = Letter;
 },
 {
 glyphname = ktVSCBindu;
-lastChange = "2022-09-24 10:59:02 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1298,7 +1302,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSAnusvara;
-lastChange = "2022-09-24 10:57:30 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1341,7 +1345,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSVisarga;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -1390,7 +1394,7 @@ category = Letter;
 },
 {
 glyphname = ktA;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1479,7 +1483,7 @@ category = Letter;
 },
 {
 glyphname = ktAA;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1577,7 +1581,7 @@ category = Letter;
 },
 {
 glyphname = ktI;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1672,7 +1676,7 @@ category = Letter;
 },
 {
 glyphname = ktII;
-lastChange = "2022-09-24 10:50:31 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1786,7 +1790,7 @@ category = Letter;
 },
 {
 glyphname = ktU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1868,7 +1872,7 @@ category = Letter;
 },
 {
 glyphname = ktUU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -1963,7 +1967,7 @@ category = Letter;
 },
 {
 glyphname = ktE;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2022,7 +2026,7 @@ category = Letter;
 },
 {
 glyphname = ktAI;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2090,7 +2094,7 @@ category = Letter;
 },
 {
 glyphname = ktO;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2197,7 +2201,7 @@ category = Letter;
 },
 {
 glyphname = ktAU;
-lastChange = "2022-09-24 10:56:11 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2315,7 +2319,7 @@ category = Letter;
 },
 {
 glyphname = ktKa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2416,7 +2420,7 @@ category = Letter;
 },
 {
 glyphname = ktKHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2497,7 +2501,7 @@ category = Letter;
 },
 {
 glyphname = ktGa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2564,7 +2568,7 @@ category = Letter;
 },
 {
 glyphname = ktGHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2646,7 +2650,7 @@ category = Letter;
 },
 {
 glyphname = ktNGa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2712,7 +2716,7 @@ category = Letter;
 },
 {
 glyphname = ktCa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2784,7 +2788,7 @@ category = Letter;
 },
 {
 glyphname = ktCHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2893,7 +2897,7 @@ category = Letter;
 },
 {
 glyphname = ktJa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -2963,7 +2967,7 @@ category = Letter;
 },
 {
 glyphname = ktJHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3057,7 +3061,7 @@ category = Letter;
 },
 {
 glyphname = ktNYa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3142,7 +3146,7 @@ category = Letter;
 },
 {
 glyphname = ktTTa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3202,7 +3206,7 @@ category = Letter;
 },
 {
 glyphname = ktTTHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3278,7 +3282,7 @@ category = Letter;
 },
 {
 glyphname = ktDDa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3354,7 +3358,7 @@ category = Letter;
 },
 {
 glyphname = ktDDDHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 08:09:26 +0000";
 layers = (
 {
 anchors = (
@@ -3364,7 +3368,7 @@ position = "{347, 701}";
 },
 {
 name = Anchor4;
-position = "{311, -250}";
+position = "{311, -260}";
 },
 {
 name = Anchor6;
@@ -3390,7 +3394,7 @@ category = Letter;
 },
 {
 glyphname = ktDDHa;
-lastChange = "2022-09-24 10:52:35 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3475,7 +3479,7 @@ category = Letter;
 },
 {
 glyphname = ktRHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 08:09:32 +0000";
 layers = (
 {
 anchors = (
@@ -3485,7 +3489,7 @@ position = "{318, 697}";
 },
 {
 name = Anchor4;
-position = "{268, -248}";
+position = "{268, -258}";
 },
 {
 name = Anchor6;
@@ -3511,7 +3515,7 @@ category = Letter;
 },
 {
 glyphname = ktNNa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3573,7 +3577,7 @@ category = Letter;
 },
 {
 glyphname = ktTa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3632,7 +3636,7 @@ category = Letter;
 },
 {
 glyphname = ktTHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3723,7 +3727,7 @@ category = Letter;
 },
 {
 glyphname = ktDa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3797,7 +3801,7 @@ category = Letter;
 },
 {
 glyphname = ktDHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3865,7 +3869,7 @@ category = Letter;
 },
 {
 glyphname = ktNa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -3943,7 +3947,7 @@ category = Letter;
 },
 {
 glyphname = ktPa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 10:43:48 +0000";
 layers = (
 {
 anchors = (
@@ -4005,7 +4009,7 @@ category = Letter;
 },
 {
 glyphname = ktPHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4124,7 +4128,7 @@ category = Letter;
 },
 {
 glyphname = ktBa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4196,7 +4200,7 @@ category = Letter;
 },
 {
 glyphname = ktBHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4290,7 +4294,7 @@ category = Letter;
 },
 {
 glyphname = ktMa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4378,7 +4382,7 @@ category = Letter;
 },
 {
 glyphname = ktYa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 10:58:25 +0000";
 layers = (
 {
 anchors = (
@@ -4388,7 +4392,7 @@ position = "{428, 697}";
 },
 {
 name = Anchor4;
-position = "{224, -133}";
+position = "{431, 0}";
 },
 {
 name = Anchor6;
@@ -4396,7 +4400,7 @@ position = "{313, 627}";
 },
 {
 name = Anchor8;
-position = "{392, 0}";
+position = "{391, 0}";
 }
 );
 layerId = UUID0;
@@ -4443,18 +4447,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"269 -83 OFFCURVE",
-"290 -60 OFFCURVE",
-"290 -22 CURVE SMOOTH",
-"290 15 OFFCURVE",
-"269 36 OFFCURVE",
-"234 36 CURVE SMOOTH",
-"200 36 OFFCURVE",
-"181 15 OFFCURVE",
-"181 -22 CURVE SMOOTH",
-"181 -60 OFFCURVE",
-"201 -83 OFFCURVE",
-"234 -83 CURVE SMOOTH"
+"219 -73 OFFCURVE",
+"240 -50 OFFCURVE",
+"240 -12 CURVE SMOOTH",
+"240 25 OFFCURVE",
+"219 46 OFFCURVE",
+"184 46 CURVE SMOOTH",
+"150 46 OFFCURVE",
+"131 25 OFFCURVE",
+"131 -12 CURVE SMOOTH",
+"131 -50 OFFCURVE",
+"151 -73 OFFCURVE",
+"184 -73 CURVE SMOOTH"
 );
 }
 );
@@ -4467,7 +4471,7 @@ category = Letter;
 },
 {
 glyphname = ktRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4516,7 +4520,7 @@ category = Letter;
 },
 {
 glyphname = ktLa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4598,7 +4602,7 @@ category = Letter;
 },
 {
 glyphname = ktVa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 11:00:09 +0000";
 layers = (
 {
 anchors = (
@@ -4659,18 +4663,18 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"289 -43 OFFCURVE",
-"309 -20 OFFCURVE",
-"309 17 CURVE SMOOTH",
-"309 55 OFFCURVE",
-"289 76 OFFCURVE",
-"254 76 CURVE SMOOTH",
-"220 76 OFFCURVE",
-"200 55 OFFCURVE",
-"200 17 CURVE SMOOTH",
-"200 -20 OFFCURVE",
-"220 -43 OFFCURVE",
-"254 -43 CURVE SMOOTH"
+"249 -43 OFFCURVE",
+"269 -20 OFFCURVE",
+"269 17 CURVE SMOOTH",
+"269 55 OFFCURVE",
+"249 76 OFFCURVE",
+"214 76 CURVE SMOOTH",
+"180 76 OFFCURVE",
+"160 55 OFFCURVE",
+"160 17 CURVE SMOOTH",
+"160 -20 OFFCURVE",
+"180 -43 OFFCURVE",
+"214 -43 CURVE SMOOTH"
 );
 }
 );
@@ -4683,7 +4687,7 @@ category = Letter;
 },
 {
 glyphname = ktSHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4788,7 +4792,7 @@ category = Letter;
 },
 {
 glyphname = ktSSa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4860,7 +4864,7 @@ category = Letter;
 },
 {
 glyphname = ktSa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -4954,7 +4958,7 @@ category = Letter;
 },
 {
 glyphname = ktHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5040,7 +5044,7 @@ category = Letter;
 },
 {
 glyphname = ktVSAA;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5078,7 +5082,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5124,7 +5128,7 @@ category = Letter;
 },
 {
 glyphname = ktVSII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5180,7 +5184,7 @@ category = Letter;
 },
 {
 glyphname = ktVSU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 10:52:34 +0000";
 layers = (
 {
 anchors = (
@@ -5232,7 +5236,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSUU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5282,8 +5286,60 @@ category = Mark;
 subCategory = Nonspacing;
 },
 {
+glyphname = ktVSR;
+lastChange = "2023-06-12 11:21:32 +0000";
+layers = (
+{
+anchors = (
+{
+name = _Anchor16;
+position = "{-276, -10}";
+},
+{
+name = _Anchor4;
+position = "{-276, -10}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"-180 -223 OFFCURVE",
+"-116 -183 OFFCURVE",
+"-72 -136 CURVE",
+"-118 -85 LINE",
+"-164 -127 OFFCURVE",
+"-207 -152 OFFCURVE",
+"-273 -152 CURVE SMOOTH",
+"-320 -152 OFFCURVE",
+"-354 -127 OFFCURVE",
+"-354 -84 CURVE SMOOTH",
+"-354 -40 OFFCURVE",
+"-318 -10 OFFCURVE",
+"-272 -10 CURVE",
+"-272 43 LINE",
+"-286 43 LINE SMOOTH",
+"-375 43 OFFCURVE",
+"-435 -7 OFFCURVE",
+"-435 -84 CURVE SMOOTH",
+"-435 -166 OFFCURVE",
+"-369 -223 OFFCURVE",
+"-265 -223 CURVE SMOOTH"
+);
+}
+);
+width = 0;
+}
+);
+unicode = 110C2;
+script = kthi;
+category = Mark;
+subCategory = Nonspacing;
+},
+{
 glyphname = ktVSE;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5322,7 +5378,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSAI;
-lastChange = "2022-09-24 10:59:17 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5372,7 +5428,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSO;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5419,7 +5475,7 @@ category = Letter;
 },
 {
 glyphname = ktVSAU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5473,7 +5529,7 @@ category = Letter;
 },
 {
 glyphname = ktVirama;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5504,7 +5560,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktNukta;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 10:43:20 +0000";
 layers = (
 {
 anchors = (
@@ -5551,7 +5607,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktABB;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -5600,7 +5656,7 @@ category = Letter;
 },
 {
 glyphname = ktENU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -5664,7 +5720,7 @@ category = Letter;
 },
 {
 glyphname = ktNUM;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -5729,7 +5785,7 @@ subCategory = Spacing;
 },
 {
 glyphname = ktDanda;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -5753,7 +5809,7 @@ category = Letter;
 },
 {
 glyphname = ktDDanda;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -5786,7 +5842,7 @@ category = Letter;
 },
 {
 glyphname = ktKII;
-lastChange = "2022-09-24 10:59:51 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -5896,7 +5952,7 @@ category = Letter;
 },
 {
 glyphname = ktSU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6006,7 +6062,7 @@ category = Letter;
 },
 {
 glyphname = ktSUU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6120,7 +6176,7 @@ category = Letter;
 },
 {
 glyphname = ktVSAIm;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6178,7 +6234,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktVSEm;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6225,7 +6281,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktKHU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6312,7 +6368,7 @@ category = Letter;
 },
 {
 glyphname = ktKU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6414,7 +6470,7 @@ category = Letter;
 },
 {
 glyphname = ktGU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6488,7 +6544,7 @@ category = Letter;
 },
 {
 glyphname = ktVSOm;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6520,7 +6576,7 @@ category = Letter;
 },
 {
 glyphname = ktVSAUm;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6552,7 +6608,7 @@ category = Letter;
 },
 {
 glyphname = ktJII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6635,7 +6691,7 @@ category = Letter;
 },
 {
 glyphname = ktCHII;
-lastChange = "2022-09-24 10:55:04 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6760,7 +6816,7 @@ category = Letter;
 },
 {
 glyphname = ktHU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6853,7 +6909,7 @@ category = Letter;
 },
 {
 glyphname = ktHUU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -6956,7 +7012,7 @@ category = Letter;
 },
 {
 glyphname = ktHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -7057,7 +7113,7 @@ category = Letter;
 },
 {
 glyphname = ktZero;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7105,7 +7161,7 @@ category = Letter;
 },
 {
 glyphname = ktOne;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7157,7 +7213,7 @@ category = Letter;
 },
 {
 glyphname = ktTwo;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7231,7 +7287,7 @@ category = Letter;
 },
 {
 glyphname = ktThree;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7321,7 +7377,7 @@ category = Letter;
 },
 {
 glyphname = ktFour;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7383,7 +7439,7 @@ category = Letter;
 },
 {
 glyphname = ktFive;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7419,7 +7475,7 @@ category = Letter;
 },
 {
 glyphname = ktSix;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7503,7 +7559,7 @@ category = Letter;
 },
 {
 glyphname = ktSeven;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7567,7 +7623,7 @@ category = Letter;
 },
 {
 glyphname = ktEight;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7620,7 +7676,7 @@ category = Letter;
 },
 {
 glyphname = ktNine;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -7692,7 +7748,7 @@ category = Letter;
 },
 {
 glyphname = ktPTa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -7767,7 +7823,7 @@ category = Letter;
 },
 {
 glyphname = ktKKa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -7929,7 +7985,7 @@ category = Letter;
 },
 {
 glyphname = ktPRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -7990,7 +8046,7 @@ category = Letter;
 },
 {
 glyphname = ktGa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8035,7 +8091,7 @@ category = Letter;
 },
 {
 glyphname = ktGHU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8120,7 +8176,7 @@ category = Letter;
 },
 {
 glyphname = ktJU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8197,7 +8253,7 @@ category = Letter;
 },
 {
 glyphname = ktJHU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8297,7 +8353,7 @@ category = Letter;
 },
 {
 glyphname = ktJHUU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8398,7 +8454,7 @@ category = Letter;
 },
 {
 glyphname = ktJHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8503,7 +8559,7 @@ category = Letter;
 },
 {
 glyphname = ktTTII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8572,7 +8628,7 @@ category = Letter;
 },
 {
 glyphname = ktTTHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8663,7 +8719,7 @@ category = Letter;
 },
 {
 glyphname = ktDDII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8754,7 +8810,7 @@ category = Letter;
 },
 {
 glyphname = ktDDHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8848,7 +8904,7 @@ category = Letter;
 },
 {
 glyphname = ktDII;
-lastChange = "2022-09-24 10:55:27 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -8937,7 +8993,7 @@ category = Letter;
 },
 {
 glyphname = ktLII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9043,7 +9099,7 @@ category = Letter;
 },
 {
 glyphname = ktDDDHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9147,7 +9203,7 @@ category = Letter;
 },
 {
 glyphname = ktCU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9222,7 +9278,7 @@ category = Letter;
 },
 {
 glyphname = ktRHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9329,7 +9385,7 @@ category = Letter;
 },
 {
 glyphname = ktNNU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9388,7 +9444,7 @@ category = Letter;
 },
 {
 glyphname = ktTU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9448,7 +9504,7 @@ category = Letter;
 },
 {
 glyphname = ktNU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9533,7 +9589,7 @@ category = Letter;
 },
 {
 glyphname = ktTHU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9621,7 +9677,7 @@ category = Letter;
 },
 {
 glyphname = ktDHU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9686,7 +9742,7 @@ category = Letter;
 },
 {
 glyphname = ktPU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9749,7 +9805,7 @@ category = Letter;
 },
 {
 glyphname = ktBU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9818,7 +9874,7 @@ category = Letter;
 },
 {
 glyphname = ktPHII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -9946,7 +10002,7 @@ category = Letter;
 },
 {
 glyphname = ktBHU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10041,7 +10097,7 @@ category = Letter;
 },
 {
 glyphname = ktMU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10136,7 +10192,7 @@ category = Letter;
 },
 {
 glyphname = ktYU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10218,7 +10274,7 @@ category = Letter;
 },
 {
 glyphname = ktYUU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10319,7 +10375,7 @@ category = Letter;
 },
 {
 glyphname = ktRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10372,7 +10428,7 @@ category = Letter;
 },
 {
 glyphname = ktVU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10454,7 +10510,7 @@ category = Letter;
 },
 {
 glyphname = ktVUU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10555,7 +10611,7 @@ category = Letter;
 },
 {
 glyphname = ktSHU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10657,7 +10713,7 @@ category = Letter;
 },
 {
 glyphname = ktSSU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10730,7 +10786,7 @@ category = Letter;
 },
 {
 glyphname = ktSU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10825,7 +10881,7 @@ category = Letter;
 },
 {
 glyphname = ktKa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10908,7 +10964,7 @@ category = Letter;
 },
 {
 glyphname = ktKHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -10968,7 +11024,7 @@ category = Letter;
 },
 {
 glyphname = ktGHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11029,7 +11085,7 @@ category = Letter;
 },
 {
 glyphname = ktCa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11080,7 +11136,7 @@ category = Letter;
 },
 {
 glyphname = ktKMa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11217,7 +11273,7 @@ category = Letter;
 },
 {
 glyphname = ktKYa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11350,7 +11406,7 @@ category = Letter;
 },
 {
 glyphname = ktKRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11453,7 +11509,7 @@ category = Letter;
 },
 {
 glyphname = ktGRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11523,7 +11579,7 @@ category = Letter;
 },
 {
 glyphname = ktJa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11579,7 +11635,7 @@ category = Letter;
 },
 {
 glyphname = ktNNa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11620,7 +11676,7 @@ category = Letter;
 },
 {
 glyphname = ktTa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11659,7 +11715,7 @@ category = Letter;
 },
 {
 glyphname = ktTHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11729,7 +11785,7 @@ category = Letter;
 },
 {
 glyphname = ktDHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11776,7 +11832,7 @@ category = Letter;
 },
 {
 glyphname = ktNa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11834,7 +11890,7 @@ category = Letter;
 },
 {
 glyphname = ktPa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11875,7 +11931,7 @@ category = Letter;
 },
 {
 glyphname = ktPHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -11978,7 +12034,7 @@ category = Letter;
 },
 {
 glyphname = ktBa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12029,7 +12085,7 @@ category = Letter;
 },
 {
 glyphname = ktBHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12103,7 +12159,7 @@ category = Letter;
 },
 {
 glyphname = ktMa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12175,7 +12231,7 @@ category = Letter;
 },
 {
 glyphname = ktYa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -12237,7 +12293,7 @@ category = Letter;
 },
 {
 glyphname = ktVa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -12299,7 +12355,7 @@ category = Letter;
 },
 {
 glyphname = ktSHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12383,7 +12439,7 @@ category = Letter;
 },
 {
 glyphname = ktSSa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12435,7 +12491,7 @@ category = Letter;
 },
 {
 glyphname = ktSa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12512,7 +12568,7 @@ category = Letter;
 },
 {
 glyphname = ktTTRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12578,7 +12634,7 @@ category = Letter;
 },
 {
 glyphname = ktSEC;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -12602,7 +12658,7 @@ category = Letter;
 },
 {
 glyphname = ktDblSEC;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -12635,7 +12691,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt2;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12680,7 +12736,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt3;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12725,7 +12781,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt4;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12770,7 +12826,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt5;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12815,7 +12871,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt6;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12866,7 +12922,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt7;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12917,7 +12973,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt8;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -12962,7 +13018,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt9;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13013,7 +13069,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt10;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13067,7 +13123,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt11;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13118,7 +13174,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt12;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13169,7 +13225,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt13;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13220,7 +13276,7 @@ category = Letter;
 },
 {
 glyphname = ktVSI.alt14;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13275,7 +13331,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13414,7 +13470,7 @@ category = Letter;
 },
 {
 glyphname = ktKKII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13586,7 +13642,7 @@ category = Letter;
 },
 {
 glyphname = ktKRII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13699,7 +13755,7 @@ category = Letter;
 },
 {
 glyphname = ktKHRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13779,7 +13835,7 @@ category = Letter;
 },
 {
 glyphname = ktGHRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13856,7 +13912,7 @@ category = Letter;
 },
 {
 glyphname = ktCRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -13926,7 +13982,7 @@ category = Letter;
 },
 {
 glyphname = ktTHRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14012,7 +14068,7 @@ category = Letter;
 },
 {
 glyphname = ktDHRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14075,7 +14131,7 @@ category = Letter;
 },
 {
 glyphname = ktBRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14142,7 +14198,7 @@ category = Letter;
 },
 {
 glyphname = ktMRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14239,7 +14295,7 @@ category = Letter;
 },
 {
 glyphname = ktSSRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14314,7 +14370,7 @@ category = Letter;
 },
 {
 glyphname = ktSRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14415,7 +14471,7 @@ category = Letter;
 },
 {
 glyphname = ktBHRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14512,7 +14568,7 @@ category = Letter;
 },
 {
 glyphname = ktJRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14585,7 +14641,7 @@ category = Letter;
 },
 {
 glyphname = ktTTRII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14661,7 +14717,7 @@ category = Letter;
 },
 {
 glyphname = ktBHYa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14792,7 +14848,7 @@ category = Letter;
 },
 {
 glyphname = ktNYa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14856,7 +14912,7 @@ category = Letter;
 },
 {
 glyphname = ktKSa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -14996,7 +15052,7 @@ category = Letter;
 },
 {
 glyphname = ktTRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15058,7 +15114,7 @@ category = Letter;
 },
 {
 glyphname = ktJRII;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15145,7 +15201,7 @@ category = Letter;
 },
 {
 glyphname = ktVRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15229,7 +15285,7 @@ category = Letter;
 },
 {
 glyphname = ktNGa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15257,7 +15313,7 @@ category = Letter;
 },
 {
 glyphname = ktCHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15285,7 +15341,7 @@ category = Letter;
 },
 {
 glyphname = ktJHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15313,7 +15369,7 @@ category = Letter;
 },
 {
 glyphname = ktTTa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15341,7 +15397,7 @@ category = Letter;
 },
 {
 glyphname = ktTTHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15369,7 +15425,7 @@ category = Letter;
 },
 {
 glyphname = ktDDa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15397,7 +15453,7 @@ category = Letter;
 },
 {
 glyphname = ktDDDHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 components = (
@@ -15419,7 +15475,7 @@ category = Letter;
 },
 {
 glyphname = ktDDHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15447,7 +15503,7 @@ category = Letter;
 },
 {
 glyphname = ktRHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 components = (
@@ -15469,7 +15525,7 @@ category = Letter;
 },
 {
 glyphname = ktDa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15497,7 +15553,7 @@ category = Letter;
 },
 {
 glyphname = ktRa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15525,7 +15581,7 @@ category = Letter;
 },
 {
 glyphname = ktLa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15553,7 +15609,7 @@ category = Letter;
 },
 {
 glyphname = ktHa.half;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15581,7 +15637,7 @@ category = Letter;
 },
 {
 glyphname = ktRaHook;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15632,7 +15688,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktRaAnusvara;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15700,7 +15756,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktRaCandrabindu;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -15787,7 +15843,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = nullR;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15799,7 +15855,7 @@ script = kthi;
 },
 {
 glyphname = uniA830;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15823,7 +15879,7 @@ script = kthi;
 },
 {
 glyphname = uniA831;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15856,7 +15912,7 @@ script = kthi;
 },
 {
 glyphname = uniA832;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15898,7 +15954,7 @@ script = kthi;
 },
 {
 glyphname = uniA833;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15922,7 +15978,7 @@ script = kthi;
 },
 {
 glyphname = uniA834;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15955,7 +16011,7 @@ script = kthi;
 },
 {
 glyphname = uniA835;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -15997,7 +16053,7 @@ script = kthi;
 },
 {
 glyphname = uniA836;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16046,7 +16102,7 @@ script = kthi;
 },
 {
 glyphname = uniA837;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16101,7 +16157,7 @@ script = kthi;
 },
 {
 glyphname = uniA838;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16141,7 +16197,7 @@ script = kthi;
 },
 {
 glyphname = uniA839;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16187,7 +16243,7 @@ script = kthi;
 },
 {
 glyphname = ktNUM.above;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16252,7 +16308,7 @@ subCategory = Spacing;
 },
 {
 glyphname = ktZero.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16308,7 +16364,7 @@ category = Letter;
 },
 {
 glyphname = ktOne.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16368,7 +16424,7 @@ category = Letter;
 },
 {
 glyphname = ktTwo.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16450,7 +16506,7 @@ category = Letter;
 },
 {
 glyphname = ktThree.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16548,7 +16604,7 @@ category = Letter;
 },
 {
 glyphname = ktFour.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16618,7 +16674,7 @@ category = Letter;
 },
 {
 glyphname = ktFive.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16662,7 +16718,7 @@ category = Letter;
 },
 {
 glyphname = ktSix.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16754,7 +16810,7 @@ category = Letter;
 },
 {
 glyphname = ktSeven.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16826,7 +16882,7 @@ category = Letter;
 },
 {
 glyphname = ktEight.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16887,7 +16943,7 @@ category = Letter;
 },
 {
 glyphname = ktNine.smallabv;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -16967,7 +17023,7 @@ category = Letter;
 },
 {
 glyphname = ktZero.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17023,7 +17079,7 @@ category = Letter;
 },
 {
 glyphname = ktOne.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17083,7 +17139,7 @@ category = Letter;
 },
 {
 glyphname = ktTwo.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17165,7 +17221,7 @@ category = Letter;
 },
 {
 glyphname = ktThree.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17263,7 +17319,7 @@ category = Letter;
 },
 {
 glyphname = ktFour.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17333,7 +17389,7 @@ category = Letter;
 },
 {
 glyphname = ktFive.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17377,7 +17433,7 @@ category = Letter;
 },
 {
 glyphname = ktSix.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17469,7 +17525,7 @@ category = Letter;
 },
 {
 glyphname = ktSeven.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17541,7 +17597,7 @@ category = Letter;
 },
 {
 glyphname = ktEight.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17602,7 +17658,7 @@ category = Letter;
 },
 {
 glyphname = ktNine.smallblw;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -17682,7 +17738,7 @@ category = Letter;
 },
 {
 glyphname = ktA.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -17764,7 +17820,7 @@ category = Letter;
 },
 {
 glyphname = ktAA.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -17852,7 +17908,7 @@ category = Letter;
 },
 {
 glyphname = ktI.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -17955,7 +18011,7 @@ category = Letter;
 },
 {
 glyphname = ktII.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18068,7 +18124,7 @@ category = Letter;
 },
 {
 glyphname = ktBHRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18166,7 +18222,7 @@ category = Letter;
 },
 {
 glyphname = ktBHYU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18294,7 +18350,7 @@ category = Letter;
 },
 {
 glyphname = ktBRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18362,7 +18418,7 @@ category = Letter;
 },
 {
 glyphname = ktCRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18448,7 +18504,7 @@ category = Letter;
 },
 {
 glyphname = ktDDDHU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18478,7 +18534,7 @@ category = Letter;
 },
 {
 glyphname = ktDHRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18542,7 +18598,7 @@ category = Letter;
 },
 {
 glyphname = ktGHRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18638,7 +18694,7 @@ category = Letter;
 },
 {
 glyphname = ktGRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18722,7 +18778,7 @@ category = Letter;
 },
 {
 glyphname = ktJRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18802,7 +18858,7 @@ category = Letter;
 },
 {
 glyphname = ktKHRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18897,7 +18953,7 @@ category = Letter;
 },
 {
 glyphname = ktKII.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -18953,7 +19009,7 @@ category = Letter;
 },
 {
 glyphname = ktKKa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19028,7 +19084,7 @@ category = Letter;
 },
 {
 glyphname = ktKKU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19192,7 +19248,7 @@ category = Letter;
 },
 {
 glyphname = ktKMa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19291,7 +19347,7 @@ category = Letter;
 },
 {
 glyphname = ktKMRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19439,7 +19495,7 @@ category = Letter;
 },
 {
 glyphname = ktKMRa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19545,7 +19601,7 @@ category = Letter;
 },
 {
 glyphname = ktKMRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19695,7 +19751,7 @@ category = Letter;
 },
 {
 glyphname = ktKMRU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19808,7 +19864,7 @@ category = Letter;
 },
 {
 glyphname = ktKMU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -19955,7 +20011,7 @@ category = Letter;
 },
 {
 glyphname = ktKMU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20108,7 +20164,7 @@ category = Letter;
 },
 {
 glyphname = ktKRa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20196,7 +20252,7 @@ category = Letter;
 },
 {
 glyphname = ktKRII.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20303,7 +20359,7 @@ category = Letter;
 },
 {
 glyphname = ktKRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20425,7 +20481,7 @@ category = Letter;
 },
 {
 glyphname = ktKSa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20527,7 +20583,7 @@ category = Letter;
 },
 {
 glyphname = ktKSU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20673,7 +20729,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20774,7 +20830,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHRa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20915,7 +20971,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -20956,7 +21012,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21105,7 +21161,7 @@ category = Letter;
 },
 {
 glyphname = ktKYa.varKa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21200,7 +21256,7 @@ category = Letter;
 },
 {
 glyphname = ktKYU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21339,7 +21395,7 @@ category = Letter;
 },
 {
 glyphname = ktMRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21446,7 +21502,7 @@ category = Letter;
 },
 {
 glyphname = ktNNa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21524,7 +21580,7 @@ category = Letter;
 },
 {
 glyphname = ktPRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21595,7 +21651,7 @@ category = Letter;
 },
 {
 glyphname = ktPTU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21676,7 +21732,7 @@ category = Letter;
 },
 {
 glyphname = ktRHU;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21706,7 +21762,7 @@ category = Letter;
 },
 {
 glyphname = ktSRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21813,7 +21869,7 @@ category = Letter;
 },
 {
 glyphname = ktSSRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21894,7 +21950,7 @@ category = Letter;
 },
 {
 glyphname = ktTHRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -21990,7 +22046,7 @@ category = Letter;
 },
 {
 glyphname = ktTRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22062,7 +22118,7 @@ category = Letter;
 },
 {
 glyphname = ktVRU.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22143,7 +22199,7 @@ category = Letter;
 },
 {
 glyphname = ktVSII.alt;
-lastChange = "2022-09-24 10:58:05 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22193,7 +22249,7 @@ category = Letter;
 },
 {
 glyphname = ktVSU.alt;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-12 10:20:55 +0000";
 layers = (
 {
 anchors = (
@@ -22243,7 +22299,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktBHYa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22356,7 +22412,7 @@ category = Letter;
 },
 {
 glyphname = ktBHYU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22480,7 +22536,7 @@ category = Letter;
 },
 {
 glyphname = ktKa.half.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22506,7 +22562,7 @@ category = Letter;
 },
 {
 glyphname = ktKa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22585,7 +22641,7 @@ category = Letter;
 },
 {
 glyphname = ktKKII.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22660,7 +22716,7 @@ category = Letter;
 },
 {
 glyphname = ktKSU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22811,7 +22867,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHRa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -22949,7 +23005,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHRU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23085,7 +23141,7 @@ category = Letter;
 },
 {
 glyphname = ktKTHU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23287,7 +23343,7 @@ category = Letter;
 },
 {
 glyphname = ktKYa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23402,7 +23458,7 @@ category = Letter;
 },
 {
 glyphname = ktKYa.varKYa;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23480,7 +23536,7 @@ category = Letter;
 },
 {
 glyphname = ktKYU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23606,7 +23662,7 @@ category = Letter;
 },
 {
 glyphname = ktKYU.varKa.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23712,7 +23768,7 @@ category = Letter;
 },
 {
 glyphname = ktKYU.varKYa.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23801,7 +23857,7 @@ category = Letter;
 },
 {
 glyphname = ktLa.half.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23827,7 +23883,7 @@ category = Letter;
 },
 {
 glyphname = ktLa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23904,7 +23960,7 @@ category = Letter;
 },
 {
 glyphname = ktLII.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -23996,7 +24052,7 @@ category = Letter;
 },
 {
 glyphname = ktNNa.half.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24054,7 +24110,7 @@ category = Letter;
 },
 {
 glyphname = ktNNU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24139,7 +24195,7 @@ category = Letter;
 },
 {
 glyphname = ktNYa.half.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24164,7 +24220,7 @@ category = Letter;
 },
 {
 glyphname = ktNYa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24271,7 +24327,7 @@ category = Letter;
 },
 {
 glyphname = ktNYII.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24395,7 +24451,7 @@ category = Letter;
 },
 {
 glyphname = ktPHa.half.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24421,7 +24477,7 @@ category = Letter;
 },
 {
 glyphname = ktPHa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24516,7 +24572,7 @@ category = Letter;
 },
 {
 glyphname = ktPHII.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24621,7 +24677,7 @@ category = Letter;
 },
 {
 glyphname = ktPHRa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24666,7 +24722,7 @@ category = Letter;
 },
 {
 glyphname = ktYa.half.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24716,7 +24772,7 @@ category = Letter;
 },
 {
 glyphname = ktYa.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24786,7 +24842,7 @@ category = Letter;
 },
 {
 glyphname = ktYU.var.alt1;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24854,7 +24910,7 @@ category = Letter;
 },
 {
 glyphname = ktYUU.var;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 anchors = (
@@ -24942,7 +24998,7 @@ category = Letter;
 {
 export = 0;
 glyphname = ktKa.alt1.left;
-lastChange = "2019-10-25 13:21:48 +0000";
+lastChange = "2023-06-05 09:55:36 +0000";
 layers = (
 {
 layerId = UUID0;
