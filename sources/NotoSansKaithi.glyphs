@@ -1,5 +1,11 @@
 {
-.appVersion = "3151";
+.appVersion = "3205";
+DisplayStrings = (
+"/ktPa/ktVSU/ktPa/ktPa",
+"/ktVSR/space/space/ktVSU/space/space/ktVSUU/space/space/space",
+"/ktYa/ktVa",
+"/ktVSR"
+);
 classes = (
 {
 code = ktVirama;
@@ -503,7 +509,7 @@ code = "lookup ChainedContextualGSUB3 {\012    lookupflag UseMarkFilteringSet @m
 name = ChainedContextualGSUB3;
 },
 {
-code = "lookup LigatureSubstitution4 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    ;\012    # Original source: 3 \012    sub ktRa ktVirama by ktRaHook;\012} LigatureSubstitution4;\012";
+code = "lookup LigatureSubstitution4 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    ;\012    # Original source: 3 \012    sub ktRa' ktVirama' @class1 by ktRaHook;\012} LigatureSubstitution4;\012";
 name = LigatureSubstitution4;
 },
 {
