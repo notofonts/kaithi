@@ -5,7 +5,8 @@ DisplayStrings = (
 "/ktVSR/space/space/ktVSU/space/space/ktVSUU/space/space/space",
 "/ktYa/ktVa",
 "/ktVSR",
-"/ktNukta/ktVirama"
+"/ktVSU.alt/ktVirama",
+"/ktNNa/ktYa/ktVa/ktSHa/ktPTa/ktKYa/ktSSRa/ktSRa/ktBHYa/ktKSa/ktVRa/ktKMRa/ktKMRa.var/ktKSa.var/ktKYa.varKa/ktNNa.var/ktKTHRa.var/ktLa.var/ktPHRa.var"
 );
 classes = (
 {
@@ -701,7 +702,7 @@ name = ss01;
 notes = "Name: Alternate forms";
 },
 {
-code = "lookup SingleSubstitution21 {\012    sub ktSU by ktSU.alt1;\012} SingleSubstitution21;\012\012lookup LigatureSubstitution22 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    sub ktKa ktVSU by ktKU.alt1;\012    sub ktKHa ktVSU by ktKHU.alt1;\012    sub ktGa ktVSU by ktGU.alt1;\012    sub ktGHa ktVSU by ktGHU.alt1;\012    sub ktCa ktVSU by ktCU.alt1;\012    sub ktJa ktVSU by ktJU.alt1;\012    sub ktNNa ktVSU by ktNNU.alt1;\012    sub ktNNa ktVSU.alt by ktNNU.alt1;\012    sub ktTa ktVSU by ktTU.alt1;\012    sub ktTHa ktVSU by ktTHU.alt1;\012    sub ktDHa ktVSU by ktDHU.alt1;\012    sub ktNa ktVSU by ktNU.alt1;\012    sub ktPa ktVSU by ktPU.alt1;\012    sub ktBa ktVSU by ktBU.alt1;\012    sub ktBHa ktVSU by ktBHU.alt1;\012    sub ktMa ktVSU by ktMU.alt1;\012    sub ktYa ktVSU.alt by ktYU.alt1;\012    sub ktRa ktVSU by ktRU.alt1;\012    sub ktVa ktVSU.alt by ktVU.alt1;\012    sub ktSHa ktVSU by ktSHU.alt1;\012    sub ktSSa ktVSU by ktSSU.alt1;\012    sub ktSa ktVSU by ktSU.alt1;\012    sub ktPTa ktVSU.alt by ktPTU.alt1;\012    sub ktKKa ktVSU by ktKKU.alt1;\012    sub ktPRa ktVSU by ktPRU.alt1;\012    sub ktKMa ktVSU by ktKMU.alt1;\012    sub ktKYa ktVSU.alt by ktKYU.alt1;\012    sub ktKRa ktVSU by ktKRU.alt1;\012    sub ktGRa ktVSU by ktGRU.alt1;\012    sub ktKTHa ktVSU by ktKTHU.alt1;\012    sub ktKHRa ktVSU by ktKHRU.alt1;\012    sub ktGHRa ktVSU by ktGHRU.alt1;\012    sub ktCRa ktVSU by ktCRU.alt1;\012    sub ktTHRa ktVSU by ktTHRU.alt1;\012    sub ktDHRa ktVSU by ktDHRU.alt1;\012    sub ktBRa ktVSU by ktBRU.alt1;\012    sub ktMRa ktVSU by ktMRU.alt1;\012    sub ktSSRa ktVSU.alt by ktSSRU.alt1;\012    sub ktSRa ktVSU.alt by ktSRU.alt1;\012    sub ktBHRa ktVSU by ktBHRU.alt1;\012    sub ktJRa ktVSU by ktJRU.alt1;\012    sub ktBHYa ktVSU.alt by ktBHYU.alt1;\012    sub ktKSa ktVSU.alt by ktKSU.alt1;\012    sub ktTRa ktVSU by ktTRU.alt1;\012    sub ktVRa ktVSU.alt by ktVRU.alt1;\012    sub ktKMa.var ktVSU by ktKMU.var.alt1;\012    sub ktKMRa ktVSU.alt by ktKMRU.alt1;\012    sub ktKMRa.var ktVSU.alt by ktKMRU.var.alt1;\012    sub ktKSa.var ktVSU.alt by ktKSU.var.alt1;\012    sub ktKTHa.var ktVSU by ktKTHU.var.alt1;\012    sub ktKTHRa ktVSU by ktKTHRU.alt1;\012    sub ktKYa.varKa ktVSU by ktKYU.varKa.alt1;\012    sub ktNNa.var ktVSU.alt by ktNNU.var.alt1;\012    sub ktBHYa.var ktVSU.alt by ktBHYU.var.alt1;\012    sub ktKTHRa.var ktVSU by ktKTHRU.var.alt1;\012    sub ktKYa.var ktVSU by ktKYU.var.alt1;\012    sub ktKYa.var ktVSU.alt by ktKYU.var.alt1;\012    sub ktKYa.varKYa ktVSU by ktKYU.varKYa.alt1;\012    sub ktYa.var ktVSU by ktYU.var.alt1;\012    sub ktYa.var ktVSU.alt by ktYU.var.alt1;\012} LigatureSubstitution22;\012";
+code = "lookup SingleSubstitution21 {\012    sub ktSU by ktSU.alt1;\012	sub ktVSU.alt by ktVSU.alt1;\012} SingleSubstitution21;\012\012lookup LigatureSubstitution22 {\012    lookupflag 0;\012    ;\012    # Original source: 21 \012    sub ktKa ktVSU by ktKU.alt1;\012    sub ktKHa ktVSU by ktKHU.alt1;\012    sub ktGa ktVSU by ktGU.alt1;\012    sub ktGHa ktVSU by ktGHU.alt1;\012    sub ktCa ktVSU by ktCU.alt1;\012    sub ktJa ktVSU by ktJU.alt1;\012    sub ktNNa ktVSU by ktNNU.alt1;\012    sub ktNNa ktVSU.alt by ktNNU.alt1;\012    sub ktTa ktVSU by ktTU.alt1;\012    sub ktTHa ktVSU by ktTHU.alt1;\012    sub ktDHa ktVSU by ktDHU.alt1;\012    sub ktNa ktVSU by ktNU.alt1;\012    sub ktPa ktVSU by ktPU.alt1;\012    sub ktBa ktVSU by ktBU.alt1;\012    sub ktBHa ktVSU by ktBHU.alt1;\012    sub ktMa ktVSU by ktMU.alt1;\012    sub ktYa ktVSU.alt by ktYU.alt1;\012    sub ktRa ktVSU by ktRU.alt1;\012    sub ktVa ktVSU.alt by ktVU.alt1;\012    sub ktSHa ktVSU by ktSHU.alt1;\012    sub ktSSa ktVSU by ktSSU.alt1;\012    sub ktSa ktVSU by ktSU.alt1;\012    sub ktPTa ktVSU.alt by ktPTU.alt1;\012    sub ktKKa ktVSU by ktKKU.alt1;\012    sub ktPRa ktVSU by ktPRU.alt1;\012    sub ktKMa ktVSU by ktKMU.alt1;\012    sub ktKYa ktVSU.alt by ktKYU.alt1;\012    sub ktKRa ktVSU by ktKRU.alt1;\012    sub ktGRa ktVSU by ktGRU.alt1;\012    sub ktKTHa ktVSU by ktKTHU.alt1;\012    sub ktKHRa ktVSU by ktKHRU.alt1;\012    sub ktGHRa ktVSU by ktGHRU.alt1;\012    sub ktCRa ktVSU by ktCRU.alt1;\012    sub ktTHRa ktVSU by ktTHRU.alt1;\012    sub ktDHRa ktVSU by ktDHRU.alt1;\012    sub ktBRa ktVSU by ktBRU.alt1;\012    sub ktMRa ktVSU by ktMRU.alt1;\012    sub ktSSRa ktVSU.alt by ktSSRU.alt1;\012    sub ktSRa ktVSU.alt by ktSRU.alt1;\012    sub ktBHRa ktVSU by ktBHRU.alt1;\012    sub ktJRa ktVSU by ktJRU.alt1;\012    sub ktBHYa ktVSU.alt by ktBHYU.alt1;\012    sub ktKSa ktVSU.alt by ktKSU.alt1;\012    sub ktTRa ktVSU by ktTRU.alt1;\012    sub ktVRa ktVSU.alt by ktVRU.alt1;\012    sub ktKMa.var ktVSU by ktKMU.var.alt1;\012    sub ktKMRa ktVSU.alt by ktKMRU.alt1;\012    sub ktKMRa.var ktVSU.alt by ktKMRU.var.alt1;\012    sub ktKSa.var ktVSU.alt by ktKSU.var.alt1;\012    sub ktKTHa.var ktVSU by ktKTHU.var.alt1;\012    sub ktKTHRa ktVSU by ktKTHRU.alt1;\012    sub ktKYa.varKa ktVSU by ktKYU.varKa.alt1;\012    sub ktNNa.var ktVSU.alt by ktNNU.var.alt1;\012    sub ktBHYa.var ktVSU.alt by ktBHYU.var.alt1;\012    sub ktKTHRa.var ktVSU by ktKTHRU.var.alt1;\012    sub ktKYa.var ktVSU by ktKYU.var.alt1;\012    sub ktKYa.var ktVSU.alt by ktKYU.var.alt1;\012    sub ktKYa.varKYa ktVSU by ktKYU.varKYa.alt1;\012    sub ktYa.var ktVSU by ktYU.var.alt1;\012    sub ktYa.var ktVSU.alt by ktYU.var.alt1;\012} LigatureSubstitution22;\012";
 name = ss02;
 notes = "Name: Alternate U-vowel conjuncts";
 },
@@ -7971,7 +7972,7 @@ category = Letter;
 },
 {
 glyphname = ktPTa;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:33:11 +0000";
 layers = (
 {
 anchors = (
@@ -7993,7 +7994,7 @@ position = "{271, 627}";
 },
 {
 name = Anchor8;
-position = "{390, 0}";
+position = "{379, 0}";
 }
 );
 layerId = UUID0;
@@ -11496,7 +11497,7 @@ category = Letter;
 },
 {
 glyphname = ktKYa;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:33:44 +0000";
 layers = (
 {
 anchors = (
@@ -11514,7 +11515,7 @@ position = "{614, 622}";
 },
 {
 name = Anchor8;
-position = "{935, 0}";
+position = "{925, 0}";
 }
 );
 layerId = UUID0;
@@ -15135,7 +15136,7 @@ category = Letter;
 },
 {
 glyphname = ktKSa;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:33:53 +0000";
 layers = (
 {
 anchors = (
@@ -15424,7 +15425,7 @@ category = Letter;
 },
 {
 glyphname = ktVRa;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:34:05 +0000";
 layers = (
 {
 anchors = (
@@ -15442,7 +15443,7 @@ position = "{286, 622}";
 },
 {
 name = Anchor8;
-position = "{447, 0}";
+position = "{409, 0}";
 }
 );
 layerId = UUID0;
@@ -19570,7 +19571,7 @@ category = Letter;
 },
 {
 glyphname = ktKMRa;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:34:10 +0000";
 layers = (
 {
 anchors = (
@@ -19718,7 +19719,7 @@ category = Letter;
 },
 {
 glyphname = ktKMRa.var;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:34:13 +0000";
 layers = (
 {
 anchors = (
@@ -20704,7 +20705,7 @@ category = Letter;
 },
 {
 glyphname = ktKSa.var;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:34:15 +0000";
 layers = (
 {
 anchors = (
@@ -21384,7 +21385,7 @@ category = Letter;
 },
 {
 glyphname = ktKYa.varKa;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:34:25 +0000";
 layers = (
 {
 anchors = (
@@ -21402,7 +21403,7 @@ position = "{614, 622}";
 },
 {
 name = Anchor8;
-position = "{935, 0}";
+position = "{925, 0}";
 }
 );
 components = (
@@ -24020,7 +24021,7 @@ category = Letter;
 },
 {
 glyphname = ktKYU.var.alt1;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:25:03 +0000";
 layers = (
 {
 anchors = (
@@ -24035,6 +24036,12 @@ position = "{963, 697}";
 {
 name = Anchor6;
 position = "{614, 622}";
+}
+);
+components = (
+{
+name = ktVSU.alt1;
+transform = "{1, 0, 0, 1, 724, 0}";
 }
 );
 layerId = UUID0;
@@ -24121,21 +24128,6 @@ nodes = (
 "317 271 OFFCURVE",
 "268 236 OFFCURVE",
 "214 236 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"863 -188 OFFCURVE",
-"1006 -140 OFFCURVE",
-"1006 73 CURVE SMOOTH",
-"1006 91 LINE",
-"925 91 LINE",
-"925 83 LINE SMOOTH",
-"925 -85 OFFCURVE",
-"821 -134 OFFCURVE",
-"724 -181 CURVE",
-"756 -244 LINE"
 );
 }
 );
@@ -24367,7 +24359,7 @@ category = Letter;
 },
 {
 glyphname = ktLa.var;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:34:33 +0000";
 layers = (
 {
 anchors = (
@@ -24389,7 +24381,7 @@ position = "{337, 627}";
 },
 {
 name = Anchor8;
-position = "{432, 0}";
+position = "{433, 0}";
 }
 );
 layerId = UUID0;
@@ -25161,7 +25153,7 @@ category = Letter;
 },
 {
 glyphname = ktPHRa.var;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-07-24 12:34:40 +0000";
 layers = (
 {
 anchors = (
@@ -25539,6 +25531,45 @@ nodes = (
 width = 519;
 }
 );
+},
+{
+glyphname = ktVSU.alt1;
+lastChange = "2023-07-24 12:33:22 +0000";
+layers = (
+{
+anchors = (
+{
+name = _Anchor4;
+position = "{242, 91}";
+},
+{
+name = _Anchor8;
+position = "{201, 91}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"139 -188 OFFCURVE",
+"282 -140 OFFCURVE",
+"282 73 CURVE SMOOTH",
+"282 91 LINE",
+"201 91 LINE",
+"201 83 LINE SMOOTH",
+"201 -85 OFFCURVE",
+"97 -134 OFFCURVE",
+"0 -181 CURVE",
+"32 -244 LINE"
+);
+}
+);
+width = 365;
+}
+);
+category = Mark;
+subCategory = Nonspacing;
 }
 );
 instances = (
