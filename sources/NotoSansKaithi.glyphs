@@ -4,13 +4,10 @@ DisplayStrings = (
 "/ktPa/ktVSU/ktPa/ktPa",
 "/ktVSR/space/space/ktVSU/space/space/ktVSUU/space/space/space",
 "/ktYa/ktVa",
-"/ktVSR"
+"/ktVSR",
+"/ktNukta/ktVirama"
 );
 classes = (
-{
-code = ktVirama;
-name = markFilteringSet1;
-},
 {
 code = "ktBHa ktBa ktCHa ktCa ktDDDHa ktDDHa ktDDa ktDHa ktDa ktGHa ktGa ktHa ktJHa ktJa ktKHa ktKa ktLa ktMa ktNGa ktNNa ktNYa ktNa ktPHa ktPa ktRHa ktRa ktSHa ktSSa ktSa ktTHa ktTTHa ktTTa ktTa ktVa ktYa";
 name = class1;
@@ -497,19 +494,19 @@ code = "languagesystem DFLT dflt;\012languagesystem kthi dflt;\012";
 name = Languagesystems;
 },
 {
-code = "lookup LigatureSubstitution2 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    ;\012    # Original source: 1 \012    sub ktKa ktVirama by ktKa.half;\012    sub ktKHa ktVirama by ktKHa.half;\012    sub ktGa ktVirama by ktGa.half;\012    sub ktGHa ktVirama by ktGHa.half;\012    sub ktNGa ktVirama by ktNGa.half;\012    sub ktCa ktVirama by ktCa.half;\012    sub ktCHa ktVirama by ktCHa.half;\012    sub ktJa ktVirama by ktJa.half;\012    sub ktJHa ktVirama by ktJHa.half;\012    sub ktNYa ktVirama by ktNYa.half;\012    sub ktTTa ktVirama by ktTTa.half;\012    sub ktTTHa ktVirama by ktTTHa.half;\012    sub ktDDa ktVirama by ktDDa.half;\012    sub ktDDDHa ktVirama by ktDDDHa.half;\012    sub ktDDHa ktVirama by ktDDHa.half;\012    sub ktRHa ktVirama by ktRHa.half;\012    sub ktNNa ktVirama by ktNNa.half;\012    sub ktTa ktVirama by ktTa.half;\012    sub ktTHa ktVirama by ktTHa.half;\012    sub ktDa ktVirama by ktDa.half;\012    sub ktDHa ktVirama by ktDHa.half;\012    sub ktNa ktVirama by ktNa.half;\012    sub ktPa ktVirama by ktPa.half;\012    sub ktPHa ktVirama by ktPHa.half;\012    sub ktBa ktVirama by ktBa.half;\012    sub ktBHa ktVirama by ktBHa.half;\012    sub ktMa ktVirama by ktMa.half;\012    sub ktYa ktVirama by ktYa.half;\012    sub ktRa ktVirama ZWJ by ktRa.half;\012    sub ktLa ktVirama by ktLa.half;\012    sub ktVa ktVirama by ktVa.half;\012    sub ktSHa ktVirama by ktSHa.half;\012    sub ktSSa ktVirama by ktSSa.half;\012    sub ktSa ktVirama by ktSa.half;\012    sub ktHa ktVirama by ktHa.half;\012} LigatureSubstitution2;\012";
+code = "lookup LigatureSubstitution2 {\012    lookupflag UseMarkFilteringSet [ktVirama];\012    ;\012    # Original source: 1 \012    sub ktKa ktVirama by ktKa.half;\012    sub ktKHa ktVirama by ktKHa.half;\012    sub ktGa ktVirama by ktGa.half;\012    sub ktGHa ktVirama by ktGHa.half;\012    sub ktNGa ktVirama by ktNGa.half;\012    sub ktCa ktVirama by ktCa.half;\012    sub ktCHa ktVirama by ktCHa.half;\012    sub ktJa ktVirama by ktJa.half;\012    sub ktJHa ktVirama by ktJHa.half;\012    sub ktNYa ktVirama by ktNYa.half;\012    sub ktTTa ktVirama by ktTTa.half;\012    sub ktTTHa ktVirama by ktTTHa.half;\012    sub ktDDa ktVirama by ktDDa.half;\012    sub ktDDDHa ktVirama by ktDDDHa.half;\012    sub ktDDHa ktVirama by ktDDHa.half;\012    sub ktRHa ktVirama by ktRHa.half;\012    sub ktNNa ktVirama by ktNNa.half;\012    sub ktTa ktVirama by ktTa.half;\012    sub ktTHa ktVirama by ktTHa.half;\012    sub ktDa ktVirama by ktDa.half;\012    sub ktDHa ktVirama by ktDHa.half;\012    sub ktNa ktVirama by ktNa.half;\012    sub ktPa ktVirama by ktPa.half;\012    sub ktPHa ktVirama by ktPHa.half;\012    sub ktBa ktVirama by ktBa.half;\012    sub ktBHa ktVirama by ktBHa.half;\012    sub ktMa ktVirama by ktMa.half;\012    sub ktYa ktVirama by ktYa.half;\012    sub ktRa ktVirama ZWJ by ktRa.half;\012    sub ktLa ktVirama by ktLa.half;\012    sub ktVa ktVirama by ktVa.half;\012    sub ktSHa ktVirama by ktSHa.half;\012    sub ktSSa ktVirama by ktSSa.half;\012    sub ktSa ktVirama by ktSa.half;\012    sub ktHa ktVirama by ktHa.half;\012} LigatureSubstitution2;\012";
 name = LigatureSubstitution2;
 },
 {
-code = "lookup ContextualGSUB1 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    ;\012    sub @class1' lookup LigatureSubstitution2 ktVirama' ZWJ';\012} ContextualGSUB1;\012";
+code = "lookup ContextualGSUB1 {\012    lookupflag UseMarkFilteringSet [ktVirama];\012    ;\012    sub @class1' lookup LigatureSubstitution2 ktVirama' ZWJ';\012} ContextualGSUB1;\012";
 name = ContextualGSUB1;
 },
 {
-code = "lookup ChainedContextualGSUB3 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    ;\012    # Original source: 2 \012    sub @class1' lookup LigatureSubstitution2 ktVirama' @class1;\012} ChainedContextualGSUB3;\012";
+code = "lookup ChainedContextualGSUB3 {\012    lookupflag UseMarkFilteringSet [ktVirama];\012    ;\012    # Original source: 2 \012    sub @class1' lookup LigatureSubstitution2 ktVirama' @class1;\012} ChainedContextualGSUB3;\012";
 name = ChainedContextualGSUB3;
 },
 {
-code = "lookup LigatureSubstitution4 {\012    lookupflag UseMarkFilteringSet @markFilteringSet1;\012    ;\012    # Original source: 3 \012    sub ktRa' ktVirama' @class1 by ktRaHook;\012} LigatureSubstitution4;\012";
+code = "lookup LigatureSubstitution4 {\012    lookupflag UseMarkFilteringSet [ktVirama ktNukta];\012    ;\012    # Original source: 3 \012    sub ktRa' ktVirama' @class1 by ktRaHook;\012} LigatureSubstitution4;\012";
 name = LigatureSubstitution4;
 },
 {
@@ -699,7 +696,7 @@ code = "    lookup LigatureSubstitution4;\012";
 name = rphf;
 },
 {
-code = "lookup SingleSubstitution8 {\012    lookupflag 0;\012    ;\012    # Original source: 7 \012    sub ktA by ktA.var;\012    sub ktAA by ktAA.var;\012    sub ktI by ktI.var;\012    sub ktII by ktII.var;\012    sub ktKa by ktKa.var;\012    sub ktNYa by ktNYa.var;\012    sub ktNNa by ktNNa.var;\012    sub ktPHa by ktPHa.var;\012    sub ktLa by ktLa.var;\012    sub ktKII by ktKII.var;\012    sub ktKKa by ktKKa.var;\012    sub ktLII by ktLII.var;\012    sub ktPHII by ktPHII.var;\012    sub ktKa.half by ktKa.half.var;\012    sub ktKMa by ktKMa.var;\012    sub ktKYa by ktKYa.varKa;\012    sub ktKRa by ktKRa.var;\012    sub ktKVSR by ktKVSR.var;\012    sub ktNNa.half by ktNNa.half.var;\012    sub ktPHa.half by ktPHa.half.var;\012    sub ktKTHa by ktKTHa.var;\012    sub ktKKII by ktKKII.var;\012    sub ktKRII by ktKRII.var;\012    sub ktNYa.half by ktNYa.half.var;\012    sub ktKSa by ktKSa.var;\012    sub ktLa.half by ktLa.half.var;\012    sub ktKMRa by ktKMRa.var;\012    sub ktKTHRa by ktKTHRa.var;\012} SingleSubstitution8;\012\012lookup LigatureSubstitution13 {\012    lookupflag MarkAttachmentType @markFilteringSet1;\012    ;\012    # Original source: 12 \012    sub ktNYa.var ktVSII.alt by ktNYII.var;\012    sub ktPHa.half.var ktRa by ktPHRa.var;\012    sub ktPHa.var ktVirama ktRa by ktPHRa.var;\012} LigatureSubstitution13;\012\012lookup ContextualGSUB18 {\012    lookupflag IgnoreMarks;\012    ;\012    # Original source: 17 \012    sub ktVSI.alt2' lookup SingleSubstitution19 ktKKa.var';\012    sub [ktMRa ktKMRa.var]' ktVSU' lookup SingleSubstitution19;\012} ContextualGSUB18;\012";
+code = "lookup SingleSubstitution8 {\012    lookupflag 0;\012    ;\012    # Original source: 7 \012    sub ktA by ktA.var;\012    sub ktAA by ktAA.var;\012    sub ktI by ktI.var;\012    sub ktII by ktII.var;\012    sub ktKa by ktKa.var;\012    sub ktNYa by ktNYa.var;\012    sub ktNNa by ktNNa.var;\012    sub ktPHa by ktPHa.var;\012    sub ktLa by ktLa.var;\012    sub ktKII by ktKII.var;\012    sub ktKKa by ktKKa.var;\012    sub ktLII by ktLII.var;\012    sub ktPHII by ktPHII.var;\012    sub ktKa.half by ktKa.half.var;\012    sub ktKMa by ktKMa.var;\012    sub ktKYa by ktKYa.varKa;\012    sub ktKRa by ktKRa.var;\012    sub ktKVSR by ktKVSR.var;\012    sub ktNNa.half by ktNNa.half.var;\012    sub ktPHa.half by ktPHa.half.var;\012    sub ktKTHa by ktKTHa.var;\012    sub ktKKII by ktKKII.var;\012    sub ktKRII by ktKRII.var;\012    sub ktNYa.half by ktNYa.half.var;\012    sub ktKSa by ktKSa.var;\012    sub ktLa.half by ktLa.half.var;\012    sub ktKMRa by ktKMRa.var;\012    sub ktKTHRa by ktKTHRa.var;\012} SingleSubstitution8;\012\012lookup LigatureSubstitution13 {\012    lookupflag MarkAttachmentType [ktVirama];\012    ;\012    # Original source: 12 \012    sub ktNYa.var ktVSII.alt by ktNYII.var;\012    sub ktPHa.half.var ktRa by ktPHRa.var;\012    sub ktPHa.var ktVirama ktRa by ktPHRa.var;\012} LigatureSubstitution13;\012\012lookup ContextualGSUB18 {\012    lookupflag IgnoreMarks;\012    ;\012    # Original source: 17 \012    sub ktVSI.alt2' lookup SingleSubstitution19 ktKKa.var';\012    sub [ktMRa ktKMRa.var]' ktVSU' lookup SingleSubstitution19;\012} ContextualGSUB18;\012";
 name = ss01;
 notes = "Name: Alternate forms";
 },
@@ -5567,7 +5564,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = ktNukta;
-lastChange = "2023-06-12 10:43:20 +0000";
+lastChange = "2023-07-24 12:18:20 +0000";
 layers = (
 {
 anchors = (
@@ -5578,6 +5575,10 @@ position = "{-119, -250}";
 {
 name = Anchor18;
 position = "{-107, -295}";
+},
+{
+name = Anchor4;
+position = "{-109, -266}";
 },
 {
 name = _Anchor10;
