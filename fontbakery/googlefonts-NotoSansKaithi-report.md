@@ -1,21 +1,11 @@
-## Fontbakery report
+## FontBakery report
 
-Fontbakery version: 0.8.13
+fontbakery version: 0.9.2
 
-<details><summary><b>[8] NotoSansKaithi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Version number has increased since previous release on Google Fonts? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/version_bump">com.google.fonts/check/version_bump</a>)</summary><div>
-
-
-* 🔥 **FAIL** Version number 2.003997802734375 is equal to version on Google Fonts GitHub repo.
-</div></details><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+<details><summary><b>[8] NotoSansKaithi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
-
-The dot of soft dotted characters should disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -398,6 +388,34 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50
 
 
 </div> [code: shaping-regression]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+
+
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
+ * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, tai-le, coptic, canadian-aboriginal, tifinagh, old-permic, malayalam
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+110C2 KAITHI VOWEL SIGN VOCALIC R: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `kaithi`, `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -421,7 +439,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ktNine	Contours detected: 1	Expected: 2
 
-	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
@@ -457,19 +475,171 @@ minus
 
 	* Q (U+0051) contains a short segment B<<403.5,-9.5>-<397.0,-10.0>-<391.0,-10.0>>
 
-	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>> 
+	* W (U+0057) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>>
 
-	* 73 more.
+	* a (U+0061) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
 
-Use -F or --full-lists to disable shortening of long lists. [code: found-short-segments]
+	* d (U+0064) contains a short segment L<<446.0,72.0>--<442.0,72.0>>
+
+	* m (U+006D) contains a short segment L<<169.0,463.0>--<174.0,463.0>>
+
+	* n (U+006E) contains a short segment L<<169.0,463.0>--<174.0,463.0>>
+
+	* p (U+0070) contains a short segment L<<169.0,463.0>--<173.0,463.0>>
+
+	* r (U+0072) contains a short segment L<<167.0,438.0>--<171.0,438.0>>
+
+	* u (U+0075) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* Ntilde (U+00D1) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
+
+	* Ntilde (U+00D1) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
+
+	* germandbls (U+00DF) contains a short segment B<<382.0,412.0>-<382.0,399.0>-<388.5,388.0>>
+
+	* agrave (U+00E0) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* aacute (U+00E1) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* acircumflex (U+00E2) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* atilde (U+00E3) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* adieresis (U+00E4) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* aring (U+00E5) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* ntilde (U+00F1) contains a short segment L<<169.0,463.0>--<174.0,463.0>>
+
+	* ugrave (U+00F9) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* uacute (U+00FA) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* ucircumflex (U+00FB) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* udieresis (U+00FC) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* amacron (U+0101) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* abreve (U+0103) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* aogonek (U+0105) contains a short segment L<<399.0,76.0>--<395.0,76.0>>
+
+	* dcaron (U+010F) contains a short segment L<<446.0,72.0>--<442.0,72.0>>
+
+	* dcroat (U+0111) contains a short segment L<<445.0,72.0>--<441.0,72.0>>
+
+	* Nacute (U+0143) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
+
+	* Nacute (U+0143) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
+
+	* nacute (U+0144) contains a short segment L<<169.0,463.0>--<174.0,463.0>>
+
+	* Ncommaaccent (U+0145) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
+
+	* Ncommaaccent (U+0145) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
+
+	* ncommaaccent (U+0146) contains a short segment L<<169.0,463.0>--<174.0,463.0>>
+
+	* Ncaron (U+0147) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
+
+	* Ncaron (U+0147) contains a short segment L<<582.0,123.0>--<586.0,123.0>>
+
+	* ncaron (U+0148) contains a short segment L<<169.0,463.0>--<174.0,463.0>>
+
+	* Eng (U+014A) contains a short segment L<<176.0,593.0>--<172.0,593.0>>
+
+	* Eng (U+014A) contains a short segment L<<582.0,142.0>--<586.0,142.0>>
+
+	* eng (U+014B) contains a short segment L<<170.0,463.0>--<175.0,463.0>>
+
+	* racute (U+0155) contains a short segment L<<167.0,438.0>--<171.0,438.0>>
+
+	* rcommaaccent (U+0157) contains a short segment L<<167.0,438.0>--<171.0,438.0>>
+
+	* rcaron (U+0159) contains a short segment L<<167.0,438.0>--<171.0,438.0>>
+
+	* umacron (U+016B) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* ubreve (U+016D) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* uring (U+016F) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* uhungarumlaut (U+0171) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* Uogonek (U+0172) contains a short segment B<<539.5,-158.5>-<551.0,-156.0>-<559.0,-155.0>>
+
+	* uogonek (U+0173) contains a short segment L<<448.0,71.0>--<444.0,71.0>>
+
+	* Wcircumflex (U+0174) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>>
+
+	* Wgrave (U+1E80) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>>
+
+	* Wacute (U+1E82) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>>
+
+	* Wdieresis (U+1E84) contains a short segment B<<468.0,577.5>-<463.0,600.0>-<461.0,609.0>>
+
+	* euro (U+20AC) contains a short segment B<<184.0,390.0>-<183.0,380.0>-<183.0,371.0>>
+
+	* euro (U+20AC) contains a short segment B<<183.0,371.0>-<183.0,362.0>-<183.0,352.0>>
+
+	* euro (U+20AC) contains a short segment B<<183.0,352.0>-<183.0,343.0>-<183.0,332.5>>
+
+	* euro (U+20AC) contains a short segment B<<183.0,332.5>-<183.0,322.0>-<184.0,311.0>>
+
+	* euro (U+20AC) contains a short segment B<<95.0,311.0>-<94.0,323.0>-<94.0,331.0>>
+
+	* euro (U+20AC) contains a short segment B<<94.0,331.0>-<94.0,339.0>-<94.0,352.0>>
+
+	* euro (U+20AC) contains a short segment B<<94.0,352.0>-<94.0,363.0>-<94.5,373.5>>
+
+	* euro (U+20AC) contains a short segment B<<94.5,373.5>-<95.0,384.0>-<95.0,390.0>>
+
+	* trademark (U+2122) contains a short segment L<<386.0,633.0>--<382.0,633.0>>
+
+	* ktA (U+11083) contains a short segment B<<456.0,187.5>-<457.0,201.0>-<458.0,205.0>>
+
+	* ktAA (U+11084) contains a short segment B<<456.0,187.5>-<457.0,201.0>-<458.0,205.0>>
+
+	* ktO (U+1108B) contains a short segment B<<456.0,187.5>-<457.0,201.0>-<458.0,205.0>>
+
+	* ktAU (U+1108C) contains a short segment B<<456.0,187.5>-<457.0,201.0>-<458.0,205.0>>
+
+	* ktKa (U+1108D) contains a short segment B<<355.5,197.0>-<356.0,211.0>-<357.0,214.0>>
+
+	* ktGHa (U+11090) contains a short segment B<<441.5,118.5>-<442.0,132.0>-<443.0,135.0>>
+
+	* ktCa (U+11092) contains a short segment B<<398.0,138.5>-<399.0,152.0>-<400.0,155.0>>
+
+	* ktNYa (U+11096) contains a short segment B<<481.0,276.0>-<482.0,290.0>-<483.0,293.0>>
+
+	* ktTHa (U+1109F) contains a short segment B<<422.5,142.5>-<423.0,156.0>-<424.0,160.0>>
+
+	* ktDHa (U+110A1) contains a short segment B<<432.0,147.5>-<433.0,161.0>-<434.0,165.0>>
+
+	* ktBa (U+110A5) contains a short segment B<<405.0,178.0>-<406.0,192.0>-<407.0,195.0>>
+
+	* ktNUM (U+110BD) contains a short segment L<<710.0,0.0>--<693.0,0.0>>
+
+	* ktNUM.above (U+110CD) contains a short segment L<<710.0,304.0>--<693.0,304.0>> [code: found-short-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* ⚠ **WARN** The dot of soft dotted characters used in orthographies _must_ disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
+
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
+
+Your font does *not* cover the following languages that require the soft-dotted feature: Navajo (Latn, 166,319 speakers), Basaa (Latn, 332,940 speakers), Belarusian (Cyrl, 10,064,517 speakers), Aghem (Latn, 38,843 speakers), Igbo (Latn, 27,823,640 speakers), Ukrainian (Cyrl, 29,273,587 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 4 | 117 | 7 | 114 | 0 |
-| 0% | 2% | 2% | 48% | 3% | 46% | 0% |
+| 0 | 2 | 6 | 118 | 7 | 116 | 0 |
+| 0% | 1% | 2% | 47% | 3% | 47% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
