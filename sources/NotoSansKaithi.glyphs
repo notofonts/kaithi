@@ -4526,13 +4526,17 @@ category = Letter;
 },
 {
 glyphname = ktLa;
-lastChange = "2023-06-05 09:55:36 +0000";
+lastChange = "2023-10-16 14:28:49 +0000";
 layers = (
 {
 anchors = (
 {
 name = Anchor10;
 position = "{293, 0}";
+},
+{
+name = Anchor12;
+position = "{297, 826}";
 },
 {
 name = Anchor4;
