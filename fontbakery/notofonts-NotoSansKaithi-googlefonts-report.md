@@ -524,6 +524,37 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50
 </svg>
 
 
+</div>
+<div class="shaping">
+
+<li>Shaping did not match: <span class="tf">𑂪𑂩𑂳𑂩𑂹𑂪𑂳</span> (Added by SIESTA)</li>
+
+
+<pre>Expected: ktLa=0+596|ktRa=1+453|ktVSU.alt=1+0|ktLa=3+596|ktRaHook=3+0|ktVSU.alt=3+0</pre>
+
+
+
+<pre>Got     : ktLa=0+596|ktRa=1+453|ktVSU.alt=1+0|ktLa=3+596|ktRaHook=3@-418,26+0|ktVSU.alt=3+0</pre>
+
+
+Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1645 2502" transform="matrix(1 0 0 -1 0 0)">
+<path d="M304.0,-5.0Q225.0,-5.0 169.0,36.0Q113.0,77.0 83.5,152.5Q54.0,228.0 54.0,330.0Q54.0,386.0 69.0,439.0Q84.0,492.0 114.0,534.5Q144.0,577.0 190.0,602.0Q236.0,627.0 297.0,627.0Q378.0,627.0 430.0,585.0Q482.0,543.0 507.0,470.0Q532.0,397.0 532.0,303.0Q532.0,146.0 469.0,70.5Q406.0,-5.0 304.0,-5.0ZM452.0,292.0L452.0,312.0Q452.0,386.0 438.0,440.5Q424.0,495.0 392.5,525.5Q361.0,556.0 306.0,556.0Q230.0,556.0 182.0,491.5Q134.0,427.0 134.0,305.0L134.0,297.0Q161.0,311.0 203.5,323.5Q246.0,336.0 291.0,336.0Q345.0,336.0 383.5,322.0Q422.0,308.0 452.0,292.0ZM294.0,66.0Q365.0,66.0 406.0,108.0Q447.0,150.0 447.0,229.0Q425.0,241.0 388.0,253.5Q351.0,266.0 301.0,266.0Q268.0,266.0 236.5,258.0Q205.0,250.0 180.5,239.5Q156.0,229.0 143.0,221.0Q154.0,144.0 198.0,105.0Q242.0,66.0 294.0,66.0Z" transform="translate(0, 925)"/>
+<path d="M289.0,0.0L289.0,426.0Q289.0,459.0 290.0,477.5Q291.0,496.0 292.0,500.0L290.0,500.0L93.0,308.0L34.0,370.0L311.0,622.0L370.0,622.0L370.0,0.0L289.0,0.0Z" transform="translate(596, 925)"/>
+<path d="M-273.0,-226.0Q-319.0,-226.0 -358.0,-210.5Q-397.0,-195.0 -429.0,-172.0L-389.0,-118.0Q-365.0,-134.0 -338.0,-144.5Q-311.0,-155.0 -281.0,-155.0Q-240.0,-155.0 -217.5,-135.0Q-195.0,-115.0 -195.0,-84.0Q-195.0,-51.0 -222.5,-30.5Q-250.0,-10.0 -307.0,-10.0L-307.0,40.0L-273.0,40.0Q-201.0,40.0 -157.5,5.0Q-114.0,-30.0 -114.0,-92.0Q-114.0,-151.0 -156.0,-188.5Q-198.0,-226.0 -273.0,-226.0Z" transform="translate(1049, 925)"/>
+<path d="M304.0,-5.0Q225.0,-5.0 169.0,36.0Q113.0,77.0 83.5,152.5Q54.0,228.0 54.0,330.0Q54.0,386.0 69.0,439.0Q84.0,492.0 114.0,534.5Q144.0,577.0 190.0,602.0Q236.0,627.0 297.0,627.0Q378.0,627.0 430.0,585.0Q482.0,543.0 507.0,470.0Q532.0,397.0 532.0,303.0Q532.0,146.0 469.0,70.5Q406.0,-5.0 304.0,-5.0ZM452.0,292.0L452.0,312.0Q452.0,386.0 438.0,440.5Q424.0,495.0 392.5,525.5Q361.0,556.0 306.0,556.0Q230.0,556.0 182.0,491.5Q134.0,427.0 134.0,305.0L134.0,297.0Q161.0,311.0 203.5,323.5Q246.0,336.0 291.0,336.0Q345.0,336.0 383.5,322.0Q422.0,308.0 452.0,292.0ZM294.0,66.0Q365.0,66.0 406.0,108.0Q447.0,150.0 447.0,229.0Q425.0,241.0 388.0,253.5Q351.0,266.0 301.0,266.0Q268.0,266.0 236.5,258.0Q205.0,250.0 180.5,239.5Q156.0,229.0 143.0,221.0Q154.0,144.0 198.0,105.0Q242.0,66.0 294.0,66.0Z" transform="translate(1049, 925)"/>
+<path d="M293.0,896.0L251.0,847.0Q205.0,889.0 150.0,889.0Q118.0,889.0 100.5,871.0Q83.0,853.0 83.0,824.0Q83.0,795.0 101.5,768.5Q120.0,742.0 163.0,725.0L128.0,678.0Q65.0,701.0 33.5,737.5Q2.0,774.0 2.0,832.0Q2.0,890.0 41.5,925.0Q81.0,960.0 142.0,960.0Q189.0,960.0 226.5,942.0Q264.0,924.0 293.0,896.0Z" transform="translate(1227, 951)"/>
+<path d="M-273.0,-226.0Q-319.0,-226.0 -358.0,-210.5Q-397.0,-195.0 -429.0,-172.0L-389.0,-118.0Q-365.0,-134.0 -338.0,-144.5Q-311.0,-155.0 -281.0,-155.0Q-240.0,-155.0 -217.5,-135.0Q-195.0,-115.0 -195.0,-84.0Q-195.0,-51.0 -222.5,-30.5Q-250.0,-10.0 -307.0,-10.0L-307.0,40.0L-273.0,40.0Q-201.0,40.0 -157.5,5.0Q-114.0,-30.0 -114.0,-92.0Q-114.0,-151.0 -156.0,-188.5Q-198.0,-226.0 -273.0,-226.0Z" transform="translate(1645, 925)"/>
+</svg>
+ Expected: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1645 2502" transform="matrix(1 0 0 -1 0 0)">
+<path d="M304.0,-5.0Q225.0,-5.0 169.0,36.0Q113.0,77.0 83.5,152.5Q54.0,228.0 54.0,330.0Q54.0,386.0 69.0,439.0Q84.0,492.0 114.0,534.5Q144.0,577.0 190.0,602.0Q236.0,627.0 297.0,627.0Q378.0,627.0 430.0,585.0Q482.0,543.0 507.0,470.0Q532.0,397.0 532.0,303.0Q532.0,146.0 469.0,70.5Q406.0,-5.0 304.0,-5.0ZM452.0,292.0L452.0,312.0Q452.0,386.0 438.0,440.5Q424.0,495.0 392.5,525.5Q361.0,556.0 306.0,556.0Q230.0,556.0 182.0,491.5Q134.0,427.0 134.0,305.0L134.0,297.0Q161.0,311.0 203.5,323.5Q246.0,336.0 291.0,336.0Q345.0,336.0 383.5,322.0Q422.0,308.0 452.0,292.0ZM294.0,66.0Q365.0,66.0 406.0,108.0Q447.0,150.0 447.0,229.0Q425.0,241.0 388.0,253.5Q351.0,266.0 301.0,266.0Q268.0,266.0 236.5,258.0Q205.0,250.0 180.5,239.5Q156.0,229.0 143.0,221.0Q154.0,144.0 198.0,105.0Q242.0,66.0 294.0,66.0Z" transform="translate(0, 925)"/>
+<path d="M289.0,0.0L289.0,426.0Q289.0,459.0 290.0,477.5Q291.0,496.0 292.0,500.0L290.0,500.0L93.0,308.0L34.0,370.0L311.0,622.0L370.0,622.0L370.0,0.0L289.0,0.0Z" transform="translate(596, 925)"/>
+<path d="M-273.0,-226.0Q-319.0,-226.0 -358.0,-210.5Q-397.0,-195.0 -429.0,-172.0L-389.0,-118.0Q-365.0,-134.0 -338.0,-144.5Q-311.0,-155.0 -281.0,-155.0Q-240.0,-155.0 -217.5,-135.0Q-195.0,-115.0 -195.0,-84.0Q-195.0,-51.0 -222.5,-30.5Q-250.0,-10.0 -307.0,-10.0L-307.0,40.0L-273.0,40.0Q-201.0,40.0 -157.5,5.0Q-114.0,-30.0 -114.0,-92.0Q-114.0,-151.0 -156.0,-188.5Q-198.0,-226.0 -273.0,-226.0Z" transform="translate(1049, 925)"/>
+<path d="M304.0,-5.0Q225.0,-5.0 169.0,36.0Q113.0,77.0 83.5,152.5Q54.0,228.0 54.0,330.0Q54.0,386.0 69.0,439.0Q84.0,492.0 114.0,534.5Q144.0,577.0 190.0,602.0Q236.0,627.0 297.0,627.0Q378.0,627.0 430.0,585.0Q482.0,543.0 507.0,470.0Q532.0,397.0 532.0,303.0Q532.0,146.0 469.0,70.5Q406.0,-5.0 304.0,-5.0ZM452.0,292.0L452.0,312.0Q452.0,386.0 438.0,440.5Q424.0,495.0 392.5,525.5Q361.0,556.0 306.0,556.0Q230.0,556.0 182.0,491.5Q134.0,427.0 134.0,305.0L134.0,297.0Q161.0,311.0 203.5,323.5Q246.0,336.0 291.0,336.0Q345.0,336.0 383.5,322.0Q422.0,308.0 452.0,292.0ZM294.0,66.0Q365.0,66.0 406.0,108.0Q447.0,150.0 447.0,229.0Q425.0,241.0 388.0,253.5Q351.0,266.0 301.0,266.0Q268.0,266.0 236.5,258.0Q205.0,250.0 180.5,239.5Q156.0,229.0 143.0,221.0Q154.0,144.0 198.0,105.0Q242.0,66.0 294.0,66.0Z" transform="translate(1049, 925)"/>
+<path d="M293.0,896.0L251.0,847.0Q205.0,889.0 150.0,889.0Q118.0,889.0 100.5,871.0Q83.0,853.0 83.0,824.0Q83.0,795.0 101.5,768.5Q120.0,742.0 163.0,725.0L128.0,678.0Q65.0,701.0 33.5,737.5Q2.0,774.0 2.0,832.0Q2.0,890.0 41.5,925.0Q81.0,960.0 142.0,960.0Q189.0,960.0 226.5,942.0Q264.0,924.0 293.0,896.0Z" transform="translate(1645, 925)"/>
+<path d="M-273.0,-226.0Q-319.0,-226.0 -358.0,-210.5Q-397.0,-195.0 -429.0,-172.0L-389.0,-118.0Q-365.0,-134.0 -338.0,-144.5Q-311.0,-155.0 -281.0,-155.0Q-240.0,-155.0 -217.5,-135.0Q-195.0,-115.0 -195.0,-84.0Q-195.0,-51.0 -222.5,-30.5Q-250.0,-10.0 -307.0,-10.0L-307.0,40.0L-273.0,40.0Q-201.0,40.0 -157.5,5.0Q-114.0,-30.0 -114.0,-92.0Q-114.0,-151.0 -156.0,-188.5Q-198.0,-226.0 -273.0,-226.0Z" transform="translate(1645, 925)"/>
+</svg>
+
+
 </div> [code: shaping-regression]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
@@ -534,18 +565,18 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, tifinagh, canadian-aboriginal, coptic, syriac, tai-le, math
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, tifinagh, malayalam, coptic, old-permic, tai-le, canadian-aboriginal, math
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -768,7 +799,7 @@ The dot of soft dotted characters _should_ disappear in other cases, for example
 
 Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Navajo (Latn, 166,319 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Dutch (Latn, 31,709,104 speakers), Ma’di (Latn, 584,000 speakers), Ejagham (Latn, 120,000 speakers), Koonzime (Latn, 40,000 speakers), Nateni (Latn, 100,000 speakers), Avokaya (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Ma’di (Latn, 584,000 speakers), Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Ejagham (Latn, 120,000 speakers), Avokaya (Latn, 100,000 speakers), Ebira (Latn, 2,200,000 speakers), Koonzime (Latn, 40,000 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
